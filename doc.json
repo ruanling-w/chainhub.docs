@@ -1,0 +1,861 @@
+{
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "ChainHub",
+    "colors": {
+        "primary": "#16A34A",
+        "light": "#07C983",
+        "dark": "#15803D"
+    },
+    "favicon": "/favicon.svg",
+    "navigation": {
+        "global": {
+            "anchors": [
+                {
+                    "anchor": "Documentation",
+                    "icon": "book-open-cover",
+                    "href": "https://chainhub.tech/docs"
+                },
+                {
+                    "anchor": "Blog",
+                    "icon": "newspaper",
+                    "href": "https://chainhub.tech/blog"
+                }
+            ]
+        },
+        "tabs": [
+            {
+                "tab": "Overview",
+                "groups": [
+                    {
+                        "group": "\"Painting Model",
+                        "pages": [
+                            {
+                                "group": "DALL\\302\\267E 3",
+                                "pages": [
+                                    "chainhub.docs/\"Painting Model/DALL\\302\\267E 3/create-dalle-3.md\""
+                                ]
+                            },
+                            {
+                                "group": "Doubao series",
+                                "pages": [
+                                    "chainhub.docs/\"Painting Model/Doubao series/doubao-seedream-4-0-250828-\\346\\226\\207\\347\\224\\237\\345\\233\\276.md\""
+                                ]
+                            },
+                            {
+                                "group": "Ideogram",
+                                "pages": [
+                                    "chainhub.docs/\"Painting Model/Ideogram/ideogram\\346\\226\\207\\347\\224\\237\\345\\233\\276.md\""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Chat",
+                        "pages": [
+                            {
+                                "group": "Anthropic Claude Interface",
+                                "pages": [
+                                    "chainhub.docs/Chat/Anthropic Claude Interface/chat-completion-block-object",
+                                    "chainhub.docs/Chat/Anthropic Claude Interface/chat-completion-object",
+                                    {
+                                        "group": "Chat compatible format",
+                                        "pages": [
+                                            "chainhub.docs/Chat/Anthropic Claude Interface/Chat compatible format/create-chat-completion-non-streaming",
+                                            "chainhub.docs/Chat/Anthropic Claude Interface/Chat compatible format/create-chat-completion-streaming",
+                                            "chainhub.docs/Chat/Anthropic Claude Interface/Chat compatible format/create-chat-image-recognition-streaming",
+                                            "chainhub.docs/Chat/Anthropic Claude Interface/Chat compatible format/create-thinking-chat",
+                                            "chainhub.docs/Chat/Anthropic Claude Interface/Chat compatible format/creating-chat-image-recognition-non-stream"
+                                        ]
+                                    },
+                                    {
+                                        "group": "native format",
+                                        "pages": [
+                                            "chainhub.docs/Chat/Anthropic Claude Interface/native format/create-chat-completion-streaming",
+                                            "chainhub.docs/Chat/Anthropic Claude Interface/native format/create-formatted-output",
+                                            "chainhub.docs/Chat/Anthropic Claude Interface/native format/create-thinking-chat",
+                                            "chainhub.docs/Chat/Anthropic Claude Interface/native format/creating-function-calls-streaming",
+                                            "chainhub.docs/Chat/Anthropic Claude Interface/native format/network-search",
+                                            "chainhub.docs/Chat/Anthropic Claude Interface/native format/pdf-support",
+                                            "chainhub.docs/Chat/Anthropic Claude Interface/native format/pdf-supports-base64-format"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "ChatGpt interface",
+                                "pages": [
+                                    {
+                                        "group": "ChatGPT (Chat)",
+                                        "pages": [
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/chat-completion-block-object",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/chat-completion-object",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/controlling-the-effort-of-the-inference-model",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/create-chat-authoring-graph-non-stream",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/create-chat-completion-deepseek-v31-thinking-level-streaming",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/create-chat-completion-non-streaming",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/create-chat-completion-qwen-mt-turbo",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/create-chat-completion-streaming",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/create-chat-function-call",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/create-chat-image-recognition-non-stream",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/create-chat-image-recognition-streaming",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/create-chat-image-recognition-streaming-best64",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/create-structured-output",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/deepseek-ocr-recognition",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/list-model",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/official-function-calling",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT (Chat)/official-n-test"
+                                        ]
+                                    },
+                                    {
+                                        "group": "ChatGPT Audio",
+                                        "pages": [
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT Audio/audio-to-text-gpt-4o-transcribe",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT Audio/audio-to-text-whisper-1",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT Audio/create-translation-not-supported",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT Audio/creating-a-voice-gpt-4o-mini-tts",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT Audio/gpt-4o-audio"
+                                        ]
+                                    },
+                                    {
+                                        "group": "ChatGPT Embeddings",
+                                        "pages": [
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT Embeddings/create-embedding",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT Embeddings/embedded-object"
+                                        ]
+                                    },
+                                    {
+                                        "group": "ChatGPT auto-completion (Completions)",
+                                        "pages": [
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT auto-completion (Completions)/completion-object",
+                                            "chainhub.docs/Chat/ChatGpt interface/ChatGPT auto-completion (Completions)/created"
+                                        ]
+                                    },
+                                    {
+                                        "group": "Web Search",
+                                        "pages": [
+                                            "chainhub.docs/Chat/ChatGpt interface/Web Search/web-search"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Google Gemini Interface",
+                                "pages": [
+                                    {
+                                        "group": "Chat compatible format",
+                                        "pages": [
+                                            "chainhub.docs/Chat/Google Gemini Interface/Chat compatible format/chat-api-chat-compatible-format",
+                                            "chainhub.docs/Chat/Google Gemini Interface/Chat compatible format/chat-file-reading-interface-chat-compatible-format",
+                                            "chainhub.docs/Chat/Google Gemini Interface/Chat compatible format/chat-interface---thoughts-1-chat-compatible-format",
+                                            "chainhub.docs/Chat/Google Gemini Interface/Chat compatible format/chat-interface---thoughts-2-chat-compatible-format",
+                                            "chainhub.docs/Chat/Google Gemini Interface/Chat compatible format/gemini-image-creation-interface-chat-compatible-format",
+                                            "chainhub.docs/Chat/Google Gemini Interface/Chat compatible format/image-recognition-api-chat-compatible-format"
+                                        ]
+                                    },
+                                    {
+                                        "group": "native format",
+                                        "pages": [
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/audio-understanding",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/code-execution",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/document-understanding",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/embeddings",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/formatted-output",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/function-call",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/google-search",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/image-generation",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/image-generation-gemini-25-flash-image",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/image-generation-gemini-25-flash-image-with-aspect-ratio-control",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/image-generation-gemini-3-pro-image-preview-controlling-aspect-ratio-and-clarity",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/image-understanding",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/text-generation---stream",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/text-generation-gemini-3-pro-previewgeneratecontent",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/text-generation-thought-stream",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/url-context",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/url-context-native-format",
+                                            "chainhub.docs/Chat/Google Gemini Interface/native format/video-understanding"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Chat (Responses)",
+                        "pages": [
+                            "chainhub.docs/Chat (Responses)/comparison-of-responses-api-and-chat-api",
+                            "chainhub.docs/Chat (Responses)/create-model-response",
+                            "chainhub.docs/Chat (Responses)/create-model-response-gpt-5-enable-thinking",
+                            "chainhub.docs/Chat (Responses)/create-model-response-streaming-return",
+                            "chainhub.docs/Chat (Responses)/create-web-search",
+                            "chainhub.docs/Chat (Responses)/creating-a-function-call",
+                            "chainhub.docs/Chat (Responses)/creating-function-calls-copy",
+                            "chainhub.docs/Chat (Responses)/creating-model-responses-controlling-thought-length"
+                        ]
+                    },
+                    {
+                        "group": "GPTs related",
+                        "pages": [
+                            "chainhub.docs/GPTs related/gpts-dialogue",
+                            "chainhub.docs/GPTs related/introduction"
+                        ]
+                    },
+                    {
+                        "group": "Help Center",
+                        "pages": [
+                            "chainhub.docs/Help Center/http-status-codes-and-their-meanings",
+                            "chainhub.docs/Help Center/upload-images-to-image-hosting"
+                        ]
+                    },
+                    {
+                        "group": "Node.js configuration method",
+                        "pages": [
+                            "chainhub.docs/Node.js configuration method/nodejs-basic-dialogue"
+                        ]
+                    },
+                    {
+                        "group": "Overview",
+                        "pages": [
+                            "chainhub.docs/Overview/api-quick-start-guide"
+                        ]
+                    },
+                    {
+                        "group": "PHP configuration method",
+                        "pages": [
+                            "chainhub.docs/PHP configuration method/php-image-editing-demo"
+                        ]
+                    },
+                    {
+                        "group": "Python configuration methods",
+                        "pages": [
+                            "chainhub.docs/Python configuration methods/creating-and-editing-images-using-gpt-image-1-in-python",
+                            "chainhub.docs/Python configuration methods/gpt-realtime-model-call",
+                            "chainhub.docs/Python configuration methods/python-basics-discussion",
+                            "chainhub.docs/Python configuration methods/python-calling-dalle",
+                            "chainhub.docs/Python configuration methods/python-continuous-dialogue",
+                            "chainhub.docs/Python configuration methods/python-library-streaming-output",
+                            "chainhub.docs/Python configuration methods/python-llama-index-configuration",
+                            "chainhub.docs/Python configuration methods/python-openai-official-library-using-autogpt-langchain-etc",
+                            "chainhub.docs/Python configuration methods/python-request-request-streaming-output-demo",
+                            "chainhub.docs/Python configuration methods/python-simple-langchain-calling-openai-demo",
+                            "chainhub.docs/Python configuration methods/python-speech-to-text-conversion",
+                            "chainhub.docs/Python configuration methods/python-text-to-speech",
+                            "chainhub.docs/Python configuration methods/python-using-claude-to-recognize-images",
+                            "chainhub.docs/Python configuration methods/python-using-embeddings-vectorization",
+                            "chainhub.docs/Python configuration methods/python-using-gpt-4o-to-recognize-images",
+                            "chainhub.docs/Python configuration methods/python-using-gpt-4o-to-recognize-images---local-images",
+                            "chainhub.docs/Python configuration methods/simple-python-calling-openai-function-calling-demo"
+                        ]
+                    },
+                    {
+                        "group": "Rerank Reordering Model",
+                        "pages": [
+                            "chainhub.docs/Rerank Reordering Model/rerank"
+                        ]
+                    },
+                    {
+                        "group": "General",
+                        "pages": [
+                            "chainhub.docs/index"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Video",
+                "groups": [
+                    {
+                        "group": "Kling platform",
+                        "pages": [
+                            "chainhub.docs/Kling platform/callback-protocol",
+                            {
+                                "group": "Custom tone",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Custom tone/custom-tone",
+                                    "chainhub.docs/Kling platform/Custom tone/delete-custom-tone",
+                                    "chainhub.docs/Kling platform/Custom tone/query-custom-tones-single",
+                                    "chainhub.docs/Kling platform/Custom tone/query-official-tones"
+                                ]
+                            },
+                            {
+                                "group": "Digital Human",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Digital Human/digital-human",
+                                    "chainhub.docs/Kling platform/Digital Human/query-task-single"
+                                ]
+                            },
+                            {
+                                "group": "Expanding the map",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Expanding the map/expand-image",
+                                    "chainhub.docs/Kling platform/Expanding the map/query-task-single"
+                                ]
+                            },
+                            {
+                                "group": "Image and video",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Image and video/image-based-video",
+                                    "chainhub.docs/Kling platform/Image and video/query-task-single"
+                                ]
+                            },
+                            {
+                                "group": "Image generation",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Image generation/image-generation",
+                                    "chainhub.docs/Kling platform/Image generation/query-task-single"
+                                ]
+                            },
+                            {
+                                "group": "Image recognition",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Image recognition/image-recognition"
+                                ]
+                            },
+                            {
+                                "group": "Lip-syncing",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Lip-syncing/face-recognition",
+                                    "chainhub.docs/Kling platform/Lip-syncing/lip-syncing",
+                                    "chainhub.docs/Kling platform/Lip-syncing/query-task-single"
+                                ]
+                            },
+                            {
+                                "group": "Multimodal video editing",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Multimodal video editing/add-video-selection-area",
+                                    "chainhub.docs/Kling platform/Multimodal video editing/initialize-video-to-be-edited",
+                                    "chainhub.docs/Kling platform/Multimodal video editing/multimodal-video",
+                                    "chainhub.docs/Kling platform/Multimodal video editing/preview-selected-video",
+                                    "chainhub.docs/Kling platform/Multimodal video editing/query-task-single",
+                                    "chainhub.docs/Kling platform/Multimodal video editing/video-removal-and-selection"
+                                ]
+                            },
+                            {
+                                "group": "Multiple images and reference videos",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Multiple images and reference videos/multi-image-reference-video",
+                                    "chainhub.docs/Kling platform/Multiple images and reference videos/query-task-single"
+                                ]
+                            },
+                            {
+                                "group": "Multiple reference images",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Multiple reference images/multiple-reference-images",
+                                    "chainhub.docs/Kling platform/Multiple reference images/query-task-single"
+                                ]
+                            },
+                            {
+                                "group": "Omni-Image",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Omni-Image/omni-image",
+                                    "chainhub.docs/Kling platform/Omni-Image/query-task-single"
+                                ]
+                            },
+                            {
+                                "group": "Omni-Video",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Omni-Video/omni-video",
+                                    "chainhub.docs/Kling platform/Omni-Video/query-task-single"
+                                ]
+                            },
+                            {
+                                "group": "Speech Synthesis",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Speech Synthesis/speech-synthesis"
+                                ]
+                            },
+                            {
+                                "group": "Video",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Video/query-task-single",
+                                    "chainhub.docs/Kling platform/Video/video"
+                                ]
+                            },
+                            {
+                                "group": "Video audio effects",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Video audio effects/query-task-single",
+                                    "chainhub.docs/Kling platform/Video audio effects/video-audio-generation"
+                                ]
+                            },
+                            {
+                                "group": "Video effects",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Video effects/query-task-single",
+                                    "chainhub.docs/Kling platform/Video effects/video-effects"
+                                ]
+                            },
+                            {
+                                "group": "Video extension",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Video extension/query-task-single",
+                                    "chainhub.docs/Kling platform/Video extension/video-extension"
+                                ]
+                            },
+                            {
+                                "group": "Virtual try-on",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/Virtual try-on/query-task-single",
+                                    "chainhub.docs/Kling platform/Virtual try-on/virtual-try-on"
+                                ]
+                            },
+                            {
+                                "group": "main body",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/main body/main-body"
+                                ]
+                            },
+                            {
+                                "group": "motion control",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/motion control/motion-control",
+                                    "chainhub.docs/Kling platform/motion control/query-task-single"
+                                ]
+                            },
+                            {
+                                "group": "sound effects",
+                                "pages": [
+                                    "chainhub.docs/Kling platform/sound effects/query-task-single",
+                                    "chainhub.docs/Kling platform/sound effects/sound-effects"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Suno Music",
+                        "pages": [
+                            "chainhub.docs/Suno Music/description",
+                            "chainhub.docs/Suno Music/parameters",
+                            {
+                                "group": "Query Interface",
+                                "pages": [
+                                    "chainhub.docs/Suno Music/Query Interface/batch-retrieval-tasks",
+                                    "chainhub.docs/Suno Music/Query Interface/get-scene-details",
+                                    "chainhub.docs/Suno Music/Query Interface/get-wav",
+                                    "chainhub.docs/Suno Music/Query Interface/query-single-task",
+                                    "chainhub.docs/Suno Music/Query Interface/timing-lyrics-audio-timeline"
+                                ]
+                            },
+                            {
+                                "group": "Task Submission",
+                                "pages": [
+                                    "chainhub.docs/Suno Music/Task Submission/check-upload-processing-status",
+                                    "chainhub.docs/Suno Music/Task Submission/generate-lyrics",
+                                    "chainhub.docs/Suno Music/Task Submission/generate-song-continuation-mode",
+                                    "chainhub.docs/Suno Music/Task Submission/generate-song-custom-mode",
+                                    "chainhub.docs/Suno Music/Task Submission/generate-song-inspiration-mode",
+                                    "chainhub.docs/Suno Music/Task Submission/generate-song-singer-style",
+                                    "chainhub.docs/Suno Music/Task Submission/generate-song-song-combination",
+                                    "chainhub.docs/Suno Music/Task Submission/generate-song-upload-song-for-secondary-creation",
+                                    "chainhub.docs/Suno Music/Task Submission/initialize-audio-files",
+                                    "chainhub.docs/Suno Music/Task Submission/report-upload-complete",
+                                    "chainhub.docs/Suno Music/Task Submission/request-upload-authorization",
+                                    "chainhub.docs/Suno Music/Task Submission/scenario-1-inspiration-mode",
+                                    "chainhub.docs/Suno Music/Task Submission/scenario-2-customlyricssong-title",
+                                    "chainhub.docs/Suno Music/Task Submission/scenario-3-pure-musiccustom",
+                                    "chainhub.docs/Suno Music/Task Submission/song-combination"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Video Model",
+                        "pages": [
+                            {
+                                "group": "Conch Video Generation",
+                                "pages": [
+                                    "chainhub.docs/Video Model/Conch Video Generation/first-and-last-frame-video",
+                                    "chainhub.docs/Video Model/Conch Video Generation/image-based-video",
+                                    "chainhub.docs/Video Model/Conch Video Generation/status-code",
+                                    "chainhub.docs/Video Model/Conch Video Generation/submit-video-generation-task",
+                                    "chainhub.docs/Video Model/Conch Video Generation/video-task-status-query"
+                                ]
+                            },
+                            {
+                                "group": "Doubao video generator",
+                                "pages": [
+                                    "chainhub.docs/Video Model/Doubao video generator/graphic-video---base64-encoding",
+                                    "chainhub.docs/Video Model/Doubao video generator/image-based-video---first-frame",
+                                    "chainhub.docs/Video Model/Doubao video generator/query-single-task",
+                                    "chainhub.docs/Video Model/Doubao video generator/query-video-generation-task-list---default",
+                                    "chainhub.docs/Video Model/Doubao video generator/query-video-generation-task-list---search-multiple-task-ids",
+                                    "chainhub.docs/Video Model/Doubao video generator/seedance-1-5-pro",
+                                    "chainhub.docs/Video Model/Doubao video generator/seedance-1-5-pro-first-and-last-frames",
+                                    "chainhub.docs/Video Model/Doubao video generator/seedance-lite-first-and-last-frames",
+                                    "chainhub.docs/Video Model/Doubao video generator/seedance-lite-reference-image"
+                                ]
+                            },
+                            {
+                                "group": "Grok video generation",
+                                "pages": [
+                                    {
+                                        "group": "Unified video format",
+                                        "pages": [
+                                            "chainhub.docs/Video Model/Grok video generation/Unified video format/create-video",
+                                            "chainhub.docs/Video Model/Grok video generation/Unified video format/query-task",
+                                            "chainhub.docs/Video Model/Grok video generation/Unified video format/status-code"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Luma video generation",
+                                "pages": [
+                                    {
+                                        "group": "Official API format",
+                                        "pages": [
+                                            "chainhub.docs/Video Model/Luma video generation/Official API format/extended-video",
+                                            "chainhub.docs/Video Model/Luma video generation/Official API format/status-code",
+                                            "chainhub.docs/Video Model/Luma video generation/Official API format/submit-video-generation-task"
+                                        ]
+                                    },
+                                    {
+                                        "group": "Query task",
+                                        "pages": [
+                                            "chainhub.docs/Video Model/Luma video generation/Query task/batch-retrieve-tasks",
+                                            "chainhub.docs/Video Model/Luma video generation/Query task/query-single-task"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Runway video generation",
+                                "pages": [
+                                    "chainhub.docs/Video Model/Runway video generation/query-video-tasks-free",
+                                    "chainhub.docs/Video Model/Runway video generation/status-code",
+                                    "chainhub.docs/Video Model/Runway video generation/submit-video-generation-task"
+                                ]
+                            },
+                            {
+                                "group": "Sora video generation",
+                                "pages": [
+                                    "chainhub.docs/Video Model/Sora video generation/create-role",
+                                    {
+                                        "group": "OpenAI official video format",
+                                        "pages": [
+                                            "chainhub.docs/Video Model/Sora video generation/OpenAI official video format/create-video-with-character-using-openai",
+                                            "chainhub.docs/Video Model/Sora video generation/OpenAI official video format/create-video-with-images-using-openai",
+                                            "chainhub.docs/Video Model/Sora video generation/OpenAI official video format/create-video-with-openai-private-image-mode",
+                                            "chainhub.docs/Video Model/Sora video generation/OpenAI official video format/creating-videos-using-storyboards",
+                                            "chainhub.docs/Video Model/Sora video generation/OpenAI official video format/openai-download-video",
+                                            "chainhub.docs/Video Model/Sora video generation/OpenAI official video format/openai-query-task",
+                                            "chainhub.docs/Video Model/Sora video generation/OpenAI official video format/openai-video-editing"
+                                        ]
+                                    },
+                                    {
+                                        "group": "Unified video format",
+                                        "pages": [
+                                            "chainhub.docs/Video Model/Sora video generation/Unified video format/create-video-sora-2",
+                                            "chainhub.docs/Video Model/Sora video generation/Unified video format/create-video-with-character",
+                                            "chainhub.docs/Video Model/Sora video generation/Unified video format/create-video-with-images-sora-2",
+                                            "chainhub.docs/Video Model/Sora video generation/Unified video format/creating-videos-sora-2-pro",
+                                            "chainhub.docs/Video Model/Sora video generation/Unified video format/query-task"
+                                        ]
+                                    },
+                                    {
+                                        "group": "chat format",
+                                        "pages": [
+                                            "chainhub.docs/Video Model/Sora video generation/chat format/continuous-modification-to-generate-video",
+                                            "chainhub.docs/Video Model/Sora video generation/chat format/create-video",
+                                            "chainhub.docs/Video Model/Sora video generation/chat format/create-video-with-images"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Tencent AIGC Video Generation",
+                                "pages": [
+                                    "chainhub.docs/Video Model/Tencent AIGC Video Generation/create-task",
+                                    "chainhub.docs/Video Model/Tencent AIGC Video Generation/get-request-result",
+                                    "chainhub.docs/Video Model/Tencent AIGC Video Generation/status-code"
+                                ]
+                            },
+                            {
+                                "group": "Tongyi Wanxiang Video Generation",
+                                "pages": [
+                                    "chainhub.docs/Video Model/Tongyi Wanxiang Video Generation/generate-video",
+                                    "chainhub.docs/Video Model/Tongyi Wanxiang Video Generation/video-query"
+                                ]
+                            },
+                            {
+                                "group": "VEO video generation",
+                                "pages": [
+                                    {
+                                        "group": "OpenAI video format",
+                                        "pages": [
+                                            "chainhub.docs/Video Model/VEO video generation/OpenAI video format/create-videos-with-images-using-openai",
+                                            "chainhub.docs/Video Model/VEO video generation/OpenAI video format/download-video-from-openai",
+                                            "chainhub.docs/Video Model/VEO video generation/OpenAI video format/openai-query-task"
+                                        ]
+                                    },
+                                    {
+                                        "group": "Unified video format",
+                                        "pages": [
+                                            "chainhub.docs/Video Model/VEO video generation/Unified video format/create-video",
+                                            "chainhub.docs/Video Model/VEO video generation/Unified video format/create-video-with-images",
+                                            "chainhub.docs/Video Model/VEO video generation/Unified video format/creating-a-video-reference-image",
+                                            "chainhub.docs/Video Model/VEO video generation/Unified video format/query-task",
+                                            "chainhub.docs/Video Model/VEO video generation/Unified video format/status-code"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Image",
+                "groups": [
+                    {
+                        "group": "Fal-ai aggregation platform",
+                        "pages": [
+                            "chainhub.docs/Fal-ai aggregation platform/access-tutorial",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aibytedanceseedreamv4edit",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aibytedanceseedreamv4text-to-image",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aiflux-1dev",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aiflux-1devimage-to-image",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aiflux-1devredux",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aiflux-1schnellredux",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aiflux-lora",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aiflux-loraimage-to-image",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aiflux-lorainpainting",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aiflux-prokontext",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aiflux-prokontextmax",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aiflux-prokontextmaxmulti",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aiflux-prokontexttext-to-image",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aiimagen4preview",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aikling-videov25-turboproimage-to-video",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aikling-videov25-turboprotext-to-video-api-355333276",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aikling-videov25-turboprotext-to-video-api-355902046",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aiqwen-image-edit-lora-api-349238066",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aiqwen-image-edit-lora-api-355971008",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aiqwen-image-edit-plus",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aividureference-to-image",
+                            "chainhub.docs/Fal-ai aggregation platform/fal-aiwanv22-a14bimage-to-image",
+                            "chainhub.docs/Fal-ai aggregation platform/get-request-results",
+                            {
+                                "group": "falai-veo3 video generation",
+                                "pages": [
+                                    "chainhub.docs/Fal-ai aggregation platform/falai-veo3 video generation/fal-aiveo3",
+                                    "chainhub.docs/Fal-ai aggregation platform/falai-veo3 video generation/fal-aiveo3fast",
+                                    "chainhub.docs/Fal-ai aggregation platform/falai-veo3 video generation/fal-aiveo3fastimage-to-video",
+                                    "chainhub.docs/Fal-ai aggregation platform/falai-veo3 video generation/fal-aiveo3image-to-video",
+                                    "chainhub.docs/Fal-ai aggregation platform/falai-veo3 video generation/fal-aiveo3requestsrequest-id"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Painting Model",
+                        "pages": [
+                            "chainhub.docs/Painting Model/image-object",
+                            "chainhub.docs/Painting Model/readme",
+                            {
+                                "group": "Doubao series",
+                                "pages": [
+                                    "chainhub.docs/Painting Model/Doubao series/doubao-seededit-3-0-i2i-250628",
+                                    "chainhub.docs/Painting Model/Doubao series/doubao-seedream-3-0-t2i-250415",
+                                    "chainhub.docs/Painting Model/Doubao series/doubao-seedream-4-0-250828-multiple-raw-images",
+                                    "chainhub.docs/Painting Model/Doubao series/doubao-seedream-4-0-250828-raw-image",
+                                    "chainhub.docs/Painting Model/Doubao series/doubao-seedream-4-5-251128-image-and-text-generation-single-image-input-single-image-output",
+                                    "chainhub.docs/Painting Model/Doubao series/doubao-seedream-4-5-251128-image-output-multiple-image-output",
+                                    "chainhub.docs/Painting Model/Doubao series/doubao-seedream-4-5-251128-multi-image-fusion-multiple-image-input-single-image-output",
+                                    "chainhub.docs/Painting Model/Doubao series/doubao-seedream-4-5-251128-multi-reference-image-generator",
+                                    "chainhub.docs/Painting Model/Doubao series/doubao-seedream-4-5-251128-single-image-generates-group-image",
+                                    "chainhub.docs/Painting Model/Doubao series/doubao-seedream-4-5-251128-text-based-image-plain-text-input-single-image-output"
+                                ]
+                            },
+                            {
+                                "group": "FLUX series",
+                                "pages": [
+                                    {
+                                        "group": "GPT compatible format",
+                                        "pages": [
+                                            "chainhub.docs/Painting Model/FLUX series/GPT compatible format/flux-creation-openai-dall-e-3-format",
+                                            "chainhub.docs/Painting Model/FLUX series/GPT compatible format/flux-edit-openai-dall-e-3-format"
+                                        ]
+                                    },
+                                    {
+                                        "group": "Replicate official format",
+                                        "pages": [
+                                            "chainhub.docs/Painting Model/FLUX series/Replicate official format/creating-a-task-black-forest-labsflux-kontext-dev",
+                                            "chainhub.docs/Painting Model/FLUX series/Replicate official format/flux-resolution",
+                                            "chainhub.docs/Painting Model/FLUX series/Replicate official format/integration-tutorial",
+                                            "chainhub.docs/Painting Model/FLUX series/Replicate official format/search-task"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Fal.ai platform",
+                                "pages": [
+                                    "chainhub.docs/Painting Model/Fal.ai platform/fal-ainano-banana-textual-image",
+                                    "chainhub.docs/Painting Model/Fal.ai platform/fal-ainano-bananaedit-image-editing",
+                                    "chainhub.docs/Painting Model/Fal.ai platform/get-request-result",
+                                    "chainhub.docs/Painting Model/Fal.ai platform/status-code"
+                                ]
+                            },
+                            {
+                                "group": "GPT Image Series",
+                                "pages": [
+                                    "chainhub.docs/Painting Model/GPT Image Series/create-gpt-image-1",
+                                    "chainhub.docs/Painting Model/GPT Image Series/create-gpt-image-15",
+                                    "chainhub.docs/Painting Model/GPT Image Series/edit-gpt-image-1",
+                                    "chainhub.docs/Painting Model/GPT Image Series/edit-gpt-image-15",
+                                    "chainhub.docs/Painting Model/GPT Image Series/mask-gpt-image-1",
+                                    "chainhub.docs/Painting Model/GPT Image Series/mask-gpt-image-15"
+                                ]
+                            },
+                            {
+                                "group": "Ideogram",
+                                "pages": [
+                                    "chainhub.docs/Painting Model/Ideogram/describe",
+                                    "chainhub.docs/Painting Model/Ideogram/generate-30-image-editing",
+                                    "chainhub.docs/Painting Model/Ideogram/generate-30-image-reframe",
+                                    "chainhub.docs/Painting Model/Ideogram/generate-30-image-remix",
+                                    "chainhub.docs/Painting Model/Ideogram/generate-30-replace-background",
+                                    "chainhub.docs/Painting Model/Ideogram/generate-30-text-based-image-generate",
+                                    "chainhub.docs/Painting Model/Ideogram/remix",
+                                    "chainhub.docs/Painting Model/Ideogram/upscale"
+                                ]
+                            },
+                            {
+                                "group": "Midjourney",
+                                "pages": [
+                                    "chainhub.docs/Painting Model/Midjourney/execute-action",
+                                    "chainhub.docs/Painting Model/Midjourney/get-the-seed-for-the-task-image",
+                                    "chainhub.docs/Painting Model/Midjourney/query-task-status-by-task-id",
+                                    "chainhub.docs/Painting Model/Midjourney/search-tasks-by-id-list",
+                                    "chainhub.docs/Painting Model/Midjourney/submit-blend-task",
+                                    "chainhub.docs/Painting Model/Midjourney/submit-describe-task",
+                                    "chainhub.docs/Painting Model/Midjourney/submit-imagine-task",
+                                    "chainhub.docs/Painting Model/Midjourney/submit-modal",
+                                    "chainhub.docs/Painting Model/Midjourney/upload-image"
+                                ]
+                            },
+                            {
+                                "group": "Qwen series",
+                                "pages": [
+                                    "chainhub.docs/Painting Model/Qwen series/qwen-image-edit-2509",
+                                    "chainhub.docs/Painting Model/Qwen series/qwen-image-max",
+                                    "chainhub.docs/Painting Model/Qwen series/z-image-turbo"
+                                ]
+                            },
+                            {
+                                "group": "Tencent AIGC raw images",
+                                "pages": [
+                                    "chainhub.docs/Painting Model/Tencent AIGC raw images/creating-task",
+                                    "chainhub.docs/Painting Model/Tencent AIGC raw images/get-request-result",
+                                    "chainhub.docs/Painting Model/Tencent AIGC raw images/status-code"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Replicate aggregation platform",
+                        "pages": [
+                            "chainhub.docs/Replicate aggregation platform/create-task-byendanceseedream-4",
+                            "chainhub.docs/Replicate aggregation platform/create-task-googleimagen-4",
+                            "chainhub.docs/Replicate aggregation platform/create-task-googleimagen-4-fast",
+                            "chainhub.docs/Replicate aggregation platform/create-task-googleimagen-4-ultra",
+                            "chainhub.docs/Replicate aggregation platform/create-task-ideogram-aiideogram-v2-turbo",
+                            "chainhub.docs/Replicate aggregation platform/create-task-riffusionriffusion",
+                            "chainhub.docs/Replicate aggregation platform/create-task-stability-aisdxl",
+                            "chainhub.docs/Replicate aggregation platform/creating-a-task---via-the-model-version-predictions",
+                            "chainhub.docs/Replicate aggregation platform/creating-a-task-black-forest-labsflux-11-pro-ultra",
+                            "chainhub.docs/Replicate aggregation platform/creating-a-task-black-forest-labsflux-fill-dev",
+                            "chainhub.docs/Replicate aggregation platform/creating-a-task-black-forest-labsflux-kontext-dev",
+                            "chainhub.docs/Replicate aggregation platform/creating-a-task-black-forest-labsflux-kontext-max",
+                            "chainhub.docs/Replicate aggregation platform/creating-a-task-prunaaivace-14b",
+                            "chainhub.docs/Replicate aggregation platform/creating-quests-recraft-airecraft-v3-svg",
+                            "chainhub.docs/Replicate aggregation platform/creating-task-minimaxvideo-01",
+                            "chainhub.docs/Replicate aggregation platform/creating-task-minimaxvideo-01-live",
+                            "chainhub.docs/Replicate aggregation platform/creating-tasks-andreasjanssonstable-diffusion-animation",
+                            "chainhub.docs/Replicate aggregation platform/creating-tasks-black-forest-labsflux-fill-pro",
+                            "chainhub.docs/Replicate aggregation platform/creating-tasks-black-forest-labsflux-kontext-pro",
+                            "chainhub.docs/Replicate aggregation platform/creating-tasks-cjwbwrembg",
+                            "chainhub.docs/Replicate aggregation platform/creating-tasks-flux-kontext-appsmulti-image-kontext-max",
+                            "chainhub.docs/Replicate aggregation platform/creating-tasks-flux-kontext-appsmulti-image-kontext-pro",
+                            "chainhub.docs/Replicate aggregation platform/creating-tasks-lucatacoanimate-diff",
+                            "chainhub.docs/Replicate aggregation platform/creating-tasks-lucatacoflux-dev-lora",
+                            "chainhub.docs/Replicate aggregation platform/creating-tasks-lucatacoflux-schnell-lora",
+                            "chainhub.docs/Replicate aggregation platform/creating-tasks-lucatacoremove-bg",
+                            "chainhub.docs/Replicate aggregation platform/creating-tasks-recraft-airecraft-v3",
+                            "chainhub.docs/Replicate aggregation platform/creating-tasks-stability-aistable-diffusion",
+                            "chainhub.docs/Replicate aggregation platform/creating-tasks-stability-aistable-diffusion-img2img",
+                            "chainhub.docs/Replicate aggregation platform/creating-tasks-stability-aistable-diffusion-inpainting",
+                            "chainhub.docs/Replicate aggregation platform/creating-tasks-sujaykhandekarobject-removal",
+                            "chainhub.docs/Replicate aggregation platform/flux-resolution",
+                            "chainhub.docs/Replicate aggregation platform/integration-tutorial",
+                            "chainhub.docs/Replicate aggregation platform/query-task"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Exam",
+                "groups": [
+                    {
+                        "group": "Suno Music",
+                        "pages": [
+                            {
+                                "group": "Task Submission",
+                                "pages": [
+                                    "chainhub.docs/Suno Music/Task Submission/s3-upload-example"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Video Model",
+                        "pages": [
+                            {
+                                "group": "Doubao video generator",
+                                "pages": [
+                                    "chainhub.docs/Video Model/Doubao video generator/video-example"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "mailto:hi@mintlify.com"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Dashboard",
+            "href": "https://chainhub.tech/dashboard"
+        }
+    },
+    "contextual": {
+        "options": [
+            "copy",
+            "view",
+            "chatgpt",
+            "claude",
+            "perplexity",
+            "mcp",
+            "cursor",
+            "vscode"
+        ]
+    },
+    "footer": {
+        "socials": {
+            "x": "https://x.com/chainhub",
+            "github": "https://github.com/chainhub",
+            "linkedin": "https://linkedin.com/company/chainhub"
+        }
+    }
+}
