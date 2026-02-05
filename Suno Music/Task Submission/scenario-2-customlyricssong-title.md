@@ -15,7 +15,7 @@ paths:
       deprecated: false
       description: ""
       tags:
-        - Wensheng Music Suno / Task Submission
+        - Music Suno / Task Submission
       parameters: []
       requestBody:
         content:
@@ -75,7 +75,7 @@ paths:
           x-apifox-name: success
       security:
         - bearer: []
-      x-apifox-folder: Wensheng Music Suno / Task Submission
+      x-apifox-folder: Music Suno / Task Submission
       x-apifox-status: developing
       x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-408842497-run
 components:

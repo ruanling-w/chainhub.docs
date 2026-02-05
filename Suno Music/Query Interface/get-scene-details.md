@@ -1,4 +1,4 @@
-﻿# Scene 1: Inspiration Mode
+﻿# Get scene details
 
 ## OpenAPI Specification
 
@@ -9,22 +9,28 @@ info:
   description: ""
   version: 1.0.0
 paths:
-  /suno/generate:
-    post:
-      summary: "Scene 1: Inspiration Mode"
+  /suno/feed/91c29474-20cd-44c7-8199-f206410651e3:
+    get:
+      summary: Get scene details
       deprecated: false
       description: ""
       tags:
-        - Wensheng Music Suno / Task Submission
-      parameters: []
+        - Music Suno/Query Interface
+      parameters:
+        - name: Authorization
+          in: header
+          description: ""
+          required: false
+          example: Bearer {{YOUR_API_KEY}}
+          schema:
+            type: string
       requestBody:
         content:
           application/json:
             schema:
               type: object
               properties: {}
-            example:
-              gpt_description_prompt: Nostalgia
+            example: ""
       responses:
         "200":
           description: ""
@@ -37,9 +43,9 @@ paths:
           x-apifox-name: success
       security:
         - bearer: []
-      x-apifox-folder: Wensheng Music Suno / Task Submission
+      x-apifox-folder: Music Suno/Query Interface
       x-apifox-status: developing
-      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-408841413-run
+      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-408764477-run
 components:
   schemas: {}
   securitySchemes:

@@ -1,4 +1,4 @@
-﻿# Query a single task
+﻿# Batch retrieval tasks
 
 ## OpenAPI Specification
 
@@ -9,21 +9,14 @@ info:
   description: ""
   version: 1.0.0
 paths:
-  /suno/fetch/{task_id}:
-    get:
-      summary: Query a single task
+  /suno/fetch:
+    post:
+      summary: Batch retrieval tasks
       deprecated: false
       description: ""
       tags:
-        - Wensheng Music Suno/Query Interface
+        - Music Suno/Query Interface
       parameters:
-        - name: task_id
-          in: path
-          description: ""
-          required: true
-          example: b967838b-d377-478d-9a57-d7ca6129ae60
-          schema:
-            type: string
         - name: Content-Type
           in: header
           description: ""
@@ -45,6 +38,29 @@ paths:
           example: Bearer {{YOUR_API_KEY}}
           schema:
             type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                clip_id:
+                  description: |+
+                    Song ID after extend
+                  type: string
+                is_infill:
+                  type: string
+              required:
+                - clip_id
+                - is_infill
+              x-apifox-orders:
+                - clip_id
+                - is_infill
+            example:
+              ids:
+                - b4914cbe-f738-4813-8ac9-4194ae362bed
+                - ccb61d4a-701d-4ef2-b23c-c3ff950fc3b5
+                - 276677a3-bd50-4388-83c9-39ce18f7041f
       responses:
         "200":
           description: ""
@@ -71,9 +87,9 @@ paths:
           x-apifox-name: success
       security:
         - bearer: []
-      x-apifox-folder: Wensheng Music Suno/Query Interface
+      x-apifox-folder: Music Suno/Query Interface
       x-apifox-status: released
-      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-248984180-run
+      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-248984125-run
 components:
   schemas: {}
   securitySchemes:

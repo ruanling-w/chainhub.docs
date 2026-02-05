@@ -1,4 +1,4 @@
-﻿# Generate a song (continuation mode)
+﻿# Generate a song (custom mode)
 
 ## OpenAPI Specification
 
@@ -11,11 +11,11 @@ info:
 paths:
   /suno/submit/music:
     post:
-      summary: Generate a song (continuation mode)
+      summary: Generate a song (custom mode)
       deprecated: false
       description: ""
       tags:
-        - Wensheng Music Suno / Task Submission
+        - Music Suno / Task Submission
       parameters:
         - name: Content-Type
           in: header
@@ -46,7 +46,7 @@ paths:
               properties:
                 prompt:
                   type: string
-                  description: Write the specific lyrics to be sung in the continuation part.
+                  description: Customized full lyrics.
                 mv:
                   type: string
                   description: Model version number
@@ -55,23 +55,19 @@ paths:
                   description: Lyrics Title
                 tags:
                   type: string
-                  description: Style tags
+                  description: Song style
                 continue_at:
                   type: integer
-                  description: Continue writing time point
+                  description: Continue writing the song ID
                 continue_clip_id:
                   type: string
-                  description: Continue writing audio ID
                 task:
                   type: string
-                  description: Task type, defaults to "Continue Writing".
+                  description: Task type, defaults to "generate"
               required:
                 - prompt
                 - mv
                 - title
-                - continue_at
-                - continue_clip_id
-                - task
               x-apifox-orders:
                 - prompt
                 - mv
@@ -146,9 +142,9 @@ paths:
               mv: chirp-v4
               title: Cat Dance
               tags: romantic raga
-              continue_at: 123
-              continue_clip_id: 4c4c80c4-6318-48c7-a314-71dd03ba3a11
-              task: extend
+              continue_at: 120
+              continue_clip_id: ""
+              task: ""
       responses:
         "200":
           description: ""
@@ -171,9 +167,9 @@ paths:
           x-apifox-name: success
       security:
         - bearer: []
-      x-apifox-folder: Wensheng Music Suno / Task Submission
+      x-apifox-folder: Music Suno / Task Submission
       x-apifox-status: released
-      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-305049317-run
+      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-305049181-run
 components:
   schemas: {}
   securitySchemes:

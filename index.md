@@ -1,7 +1,5 @@
 # Introduction
 
-# Introduction to AI Interface Aggregation and Management Service
-
 ## Core Advantages 🌟
 
 ### Easy Access

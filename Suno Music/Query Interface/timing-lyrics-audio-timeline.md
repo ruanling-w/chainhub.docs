@@ -15,7 +15,7 @@ paths:
       deprecated: false
       description: ''
       tags:
-        - Wensheng Music Suno/Query Interface
+        - Music Suno/Query Interface
       parameters:
         - name: id
           in: path
@@ -40,7 +40,7 @@ paths:
           x-apifox-name: success
       security:
         - bearer: []
-      x-apifox-folder: Wensheng Music Suno/Query Interface
+      x-apifox-folder: Music Suno/Query Interface
       x-apifox-status: developing
       x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-408281974-run
 components:

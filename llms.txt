@@ -1,17 +1,8 @@
 # Cloud and Fog API Interface Integration
 
 ## Docs
-- [Introduction](https://yunwu.apifox.cn/doc-5459032.md):
-- [Online Debugging Instructions](https://yunwu.apifox.cn/doc-5459006.md):
-- [Send a request](https://yunwu.apifox.cn/doc-5459007.md):
+- [Introduction](introduction.md):
 - Basic Introduction to the Transfer Station [API Quick Start Guide](https://yunwu.apifox.cn/doc-5459030.md):
-- Basic introduction to the transit station [Contact customer service](https://yunwu.apifox.cn/doc-5459026.md):
-- Basic Introduction to Transit Stations [Detailed Grouping Table](https://yunwu.apifox.cn/doc-5459009.md):
-- Basic Introduction to Transit Stations [Special Characteristics of Grouping and Price Differences](https://yunwu.apifox.cn/doc-5459008.md):
-- Basic Introduction to the Transfer Station [How to Create a Token for a Specific Group](https://yunwu.apifox.cn/doc-5459010.md):
-- Basic introduction to the relay station [Proxy interface call address](https://yunwu.apifox.cn/doc-5459027.md):
-- Basic Introduction to the Transfer Station [API Key Quota Inquiry Service](https://yunwu.apifox.cn/doc-5459028.md):
-- Basic Introduction to the Transfer Station [Free AI Chat Project Navigation](https://yunwu.apifox.cn/doc-5459029.md):
 - Chat > ​​ChatGPT Interface > ChatGPT Chat [Chat Completion Object](https://yunwu.apifox.cn/doc-5459011.md):
 - Chat > ​​ChatGPT Interface > ChatGPT Chat [Chat Completion Block Object](https://yunwu.apifox.cn/doc-5459012.md):
 - Chat > ​​ChatGPT Interface > ChatGPT Auto-Completion [Completion Object](https://yunwu.apifox.cn/doc-5459013.md):
@@ -19,12 +10,12 @@
 - Chat > ​​Anthropic Claude Interface [Chat Completion Object](https://yunwu.apifox.cn/doc-5459015.md):
 - Chat > ​​Anthropic Claude Interface [Chat Completion Block Object](https://yunwu.apifox.cn/doc-5459016.md):
 - Chat (Responses) [Comparison of Responses API and Chat API](https://yunwu.apifox.cn/doc-7116471.md):
-- Painting Model [README](https://yunwu.apifox.cn/doc-5459017.md):
-- Painting Model [Image Object](https://yunwu.apifox.cn/doc-5459018.md):
-- Painting Models > FLUX Series > Replicate Official Format [Flux Resolution](https://yunwu.apifox.cn/doc-7023049.md):
-- Painting Models > FLUX Series > Replicate Official Format [Integration Tutorial](https://yunwu.apifox.cn/doc-7023048.md):
-- Painting Models > Fal.ai Platform [Status Code](https://yunwu.apifox.cn/doc-7391956.md):
-- Painting Model > Tencent AIGC Raw Image [Status Code](https://yunwu.apifox.cn/doc-7942948.md):
+- Image Model [README](https://yunwu.apifox.cn/doc-5459017.md):
+- Image Model [Image Object](https://yunwu.apifox.cn/doc-5459018.md):
+- Image Models > FLUX Series > Replicate Official Format [Flux Resolution](https://yunwu.apifox.cn/doc-7023049.md):
+- Image Models > FLUX Series > Replicate Official Format [Integration Tutorial](https://yunwu.apifox.cn/doc-7023048.md):
+- Image Models > Fal.ai Platform [Status Code](https://yunwu.apifox.cn/doc-7391956.md):
+- Image Model > Tencent AIGC Raw Image [Status Code](https://yunwu.apifox.cn/doc-7942948.md):
 - Video Model > VEO Video Generation > Unified Video Format [Status Code](https://yunwu.apifox.cn/doc-7391972.md):
 - Video Models > Luma Video Generation > Official API Format [Status Code](https://yunwu.apifox.cn/doc-7391970.md):
 - Video Model > Runway Video Generation [Status Code](https://yunwu.apifox.cn/doc-7391957.md):
@@ -32,8 +23,8 @@
 - Video Model > Grok Video Generation > Unified Video Format [Status Code](https://yunwu.apifox.cn/doc-7764812.md):
 - Video Model > Tencent AIGC Video Generation [Status Code](https://yunwu.apifox.cn/doc-7952290.md):
 - GPTs related [Introduction](https://yunwu.apifox.cn/doc-7116516.md):
-- Wensheng Music Suno [Description](https://yunwu.apifox.cn/doc-5751952.md):
-- Wensheng Music Suno [parameters](https://yunwu.apifox.cn/doc-5751953.md):
+- Music Suno [Description](https://yunwu.apifox.cn/doc-5751952.md):
+- Music Suno [parameters](https://yunwu.apifox.cn/doc-5751953.md):
 - Kling Platform [Callback Protocol](https://yunwu.apifox.cn/doc-5654639.md):
 - Replicate Aggregation Platform [Integration Tutorial](https://yunwu.apifox.cn/doc-7110920.md):
 - Replicate aggregation platform [Flux resolution](https://yunwu.apifox.cn/doc-7110923.md):
@@ -57,37 +48,7 @@
 - Python configuration method [Creating and editing images using gpt-image-1 in Python](https://yunwu.apifox.cn/doc-6562372.md):
 - Python configuration method [Python OpenAI official library (using AutoGPT, langchain, etc.)](https://yunwu.apifox.cn/doc-5459034.md):
 - Python configuration method [Python continuous dialogue](https://yunwu.apifox.cn/doc-5459035.md):
-- Tutorials on using various plugins/software [Codex Configuration Tutorial](https://yunwu.apifox.cn/doc-7422014.md):
-- Tutorials on using various plugins/software [OpenClaw Clawdbot Custom Relay Station Configuration Tutorial](https://yunwu.apifox.cn/doc-8130178.md):
-- Tutorials on using various plugins/software [N8N Workflow API Transfer Tutorial](https://yunwu.apifox.cn/doc-7248718.md):
-- Tutorials on using various plugins/software [opencode configuration tutorial](https://yunwu.apifox.cn/doc-8105901.md):
-- Tutorials on using various plugins/software [Gemini CLI relay station configuration and usage tutorial](https://yunwu.apifox.cn/doc-7146919.md):
-- Tutorials for using various plugins/software [Claude Code Installation and Usage Tutorial](https://yunwu.apifox.cn/doc-7010249.md):
-- Tutorials on using various plugins/software [CherryStudio calling cluade MCP](https://yunwu.apifox.cn/doc-6458685.md):
-- Tutorials on using various plugins/software [Cherry Studio Configuration Tutorial](https://yunwu.apifox.cn/doc-5987397.md):
-- Tutorials on using various plugins/software [Cherry Studio configuration tutorial for Banana Pro 4K and resolution](https://yunwu.apifox.cn/doc-7865129.md):
-- Tutorials on using various plugins/software [Configuring o4 inference levels in CherryStudio](https://yunwu.apifox.cn/doc-6874585.md):
-- Tutorials on using various plugins/software [Simple configuration of the button workflow from input to URL retrieval](https://yunwu.apifox.cn/doc-7989459.md):
-- Tutorials on using various plugins/software [Adding a model to Dify](https://yunwu.apifox.cn/doc-5900725.md):
-- Tutorials on using various plugins/software [cline configuration tutorial](https://yunwu.apifox.cn/doc-5901956.md):
-- Tutorials on using various plugins/software [Aider Configuration Tutorial](https://yunwu.apifox.cn/doc-5459060.md):
-- Tutorials on using various plugins/software [Cursor Configuration Tutorial](https://yunwu.apifox.cn/doc-5459061.md):
-- Tutorials for using various plugins/software [lobechat setup tutorial](https://yunwu.apifox.cn/doc-5459062.md):
-- Tutorials on using various plugins/software [ChatBox (recommended)](https://yunwu.apifox.cn/doc-5459067.md):
-- Tutorials on using various plugins/software [open source gpt_academic](https://yunwu.apifox.cn/doc-5459068.md):
-- Tutorials for using various plugins/software [nextchat setup tutorial](https://yunwu.apifox.cn/doc-5459059.md):
-- Tutorials on using various plugins/software [zotero gpt configuration method](https://yunwu.apifox.cn/doc-5459064.md):
-- Tutorials on using various plugins/software [CLAUDE DEV Configuration Tutorial](https://yunwu.apifox.cn/doc-5459055.md):
-- Tutorials on using various plugins/software [Setting up GPT translation for immersive translation](https://yunwu.apifox.cn/doc-5459057.md):
-- Tutorials on using various plugins/software [Browser plugin ChatGPT Sidebar](https://yunwu.apifox.cn/doc-5459066.md):
-- Tutorials on using various plugins/software [chatgpt-on-wechat configuration tutorial](https://yunwu.apifox.cn/doc-5459056.md):
-- Tutorials on using various plugins/software [chatgpt GPT Academic Academic Optimization Configuration Tutorial](https://yunwu.apifox.cn/doc-5459063.md):
-- Tutorials on using various plugins/software [RikkaHub Configuration Tutorial](https://yunwu.apifox.cn/doc-7467073.md):
-- Tutorials on using various plugins/software [Coze Workflow API Tutorial](https://yunwu.apifox.cn/doc-7540676.md):
-- Tutorials on using various plugins/software [n8n workflow example for obtaining local images and generating videos](https://yunwu.apifox.cn/doc-7906925.md):
-- Help Center [AI Returned Fields: Thinking Related](https://yunwu.apifox.cn/doc-6186370.md):
 - Help Center [HTTP Status Codes and Their Meanings](https://yunwu.apifox.cn/doc-5459022.md):
-- Help Center [Self-built Image Hosting API](https://yunwu.apifox.cn/doc-7376047.md):
 
 ## API Docs
 - Chat > ​​ChatGPT Interface > ChatGPT Audio [GPT-4o-audio](https://yunwu.apifox.cn/api-258427485.md): Official documentation: https://platform.openai.com/docs/api-reference/chat/create
@@ -160,54 +121,54 @@
 - Chat (Responses) [Create Web Search](https://yunwu.apifox.cn/api-319963022.md): https://platform.openai.com/docs/api-reference/responses/create
 - Chat (Responses) [Create Model Response GPT-5 Enable Thinking](https://yunwu.apifox.cn/api-333400155.md): https://platform.openai.com/docs/api-reference/responses/create
 - Chat (Responses) [Creating Function Calls Copy](https://yunwu.apifox.cn/api-349845753.md): https://platform.openai.com/docs/api-reference/responses/create
-- Painting Model > Midjourney [Upload Image](https://yunwu.apifox.cn/api-277975070.md): Official Documentation: https://docs.midjourney.com/hc/en-us/articles/33329380893325-Managing-Image-Uploads
-- Painting Models > Midjourney [Submit Imagine Task](https://yunwu.apifox.cn/api-232421938.md): Official Documentation: https://docs.midjourney.com/hc/en-us/articles/32023408776205-Prompt-Basics
-- Painting Model > Midjourney [Query Task Status by Task ID](https://yunwu.apifox.cn/api-232421939.md):
-- Painting Model > Midjourney [Search Tasks by ID List](https://yunwu.apifox.cn/api-232421940.md):
-- Painting Model > Midjourney [Get the seed for the task image](https://yunwu.apifox.cn/api-232421941.md):
-- Painting Model > Midjourney [Execute Action](https://yunwu.apifox.cn/api-232421942.md): Official Documentation: https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers
-- Painting Models > Midjourney [Submit Blend Task](https://yunwu.apifox.cn/api-232421943.md): Official Documentation: https://docs.midjourney.com/hc/en-us/articles/32635189884557-Blend-Images-on-Discord
-- Painting Models > Midjourney [Submit Describe Task](https://yunwu.apifox.cn/api-232421944.md): Official Documentation: https://docs.midjourney.com/hc/en-us/articles/32497889043981-Describe
-- Painting Model > Midjourney [Submit Modal](https://yunwu.apifox.cn/api-232421946.md):
-- Painting Model > Ideogram [Generate 3.0 (Text-based Image) Generate ](https://yunwu.apifox.cn/api-295835676.md): Uses the Ideogram 3.0 model to synchronously generate images based on given prompts and optional parameters.
-- Painting Model > Ideogram [Generate 3.0 (Image Editing)](https://yunwu.apifox.cn/api-295871433.md): Uses the Ideogram 3.0 model to synchronously generate images based on given prompts and optional parameters.
-- Painting Model > Ideogram [Generate 3.0 (Image Remix)](https://yunwu.apifox.cn/api-295904276.md): Uses the Ideogram 3.0 model to synchronously generate images based on given prompts and optional parameters.
-- Painting Model > Ideogram [Generate 3.0 (Image Reframe)](https://yunwu.apifox.cn/api-295903393.md): Uses the Ideogram 3.0 model to synchronously generate images based on given prompts and optional parameters.
-- Painting Model > Ideogram [Generate 3.0 (Replace Background)](https://yunwu.apifox.cn/api-295906880.md): Uses the Ideogram 3.0 model to synchronously generate images based on given prompts and optional parameters.
-- Painting Model > Ideogram [ideogram（文生图）](https://yunwu.apifox.cn/api-244680463.md): Generates images synchronously based on a given prompt and optional parameters.
-- Painting Model > Ideogram [Remix](https://yunwu.apifox.cn/api-244685410.md): Official Documentation: https://developer.ideogram.ai/api-reference/api-reference/remix
-- Painting Model > Ideogram [Upscale](https://yunwu.apifox.cn/api-244685729.md): Official Documentation: https://developer.ideogram.ai/api-reference/api-reference/upscale
-- Drawing Model > Ideogram [Describe](https://yunwu.apifox.cn/api-244685783.md): Official Documentation: https://developer.ideogram.ai/api-reference/api-reference/describe
-- Painting Models > GPT Image Series [Create gpt-image-1](https://yunwu.apifox.cn/api-290549047.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
-- Painting Models > GPT Image Series [edit gpt-image-1](https://yunwu.apifox.cn/api-290558485.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
-- Painting Models > GPT Image Series [Mask gpt-image-1](https://yunwu.apifox.cn/api-313708616.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker at each location.
-- Painting Models > GPT Image Series [Create gpt-image-1.5](https://yunwu.apifox.cn/api-392793165.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
-- Painting Models > GPT Image Series [edit gpt-image-1.5](https://yunwu.apifox.cn/api-393805052.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
-- Painting Models > GPT Image Series [Mask gpt-image-1.5](https://yunwu.apifox.cn/api-393805053.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
-- Painting Model > DALL·E 3 [Create DALL·E 3](https://yunwu.apifox.cn/api-326547908.md): [Images](https://platform.openai.com/docs/api-reference/images)
-- Painting Model > FLUX Series > GPT Compatible Format [Flux Creation (OpenAI dall-e-3 Format)](https://yunwu.apifox.cn/api-232421932.md): [Image](https://platform.openai.com/docs/api-reference/images)
-- Painting Model > FLUX Series > gpt Compatible Format [Flux Edit (OpenAI dall-e-3 format)](https://yunwu.apifox.cn/api-306816728.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
-- Painting Models > FLUX Series > Replicate Official Format [Creating a Task black-forest-labs/flux-kontext-dev](https://yunwu.apifox.cn/api-321167741.md): Official Documentation: https://replicate.com/black-forest-labs/flux-kontext-dev
-- Painting Models > FLUX Series > Replicate Official Format [Search Task](https://yunwu.apifox.cn/api-321172927.md): Official Documentation: https://replicate.com/black-forest-labs/flux-kontext-max
-- Painting Model > Doubao Series [doubao-seedream-3-0-t2i-250415](https://yunwu.apifox.cn/api-328094105.md): Given a prompt and/or an input image, the model will generate a new image.
-- Painting Model > Doubao Series [doubao-seededit-3-0-i2i-250628](https://yunwu.apifox.cn/api-328094825.md): Given a prompt and/or an input image, the model will generate a new image.
-- Painting Model > Doubao Series [doubao-seedream-4-0-250828-文生图](https://yunwu.apifox.cn/api-347960869.md): Given a prompt and/or an input image, the model will generate a new image.
-- Painting Model > Doubao Series [doubao-seedream-4-0-250828-raw image](https://yunwu.apifox.cn/api-347961511.md): Given a prompt and/or an input image, the model will generate a new image.
-- Painting Model > Doubao Series [doubao-seedream-4-0-250828-Multiple Raw Images](https://yunwu.apifox.cn/api-349230272.md): Given a prompt and/or an input image, the model will generate a new image.
-- Painting Model > Doubao Series [doubao-seedream-4-5-251128 Text-based Image (Plain Text Input, Single Image Output)](https://yunwu.apifox.cn/api-385964102.md): Given a prompt and/or an input image, the model will generate a new image.
-- Painting Model > Doubao Series [doubao-seedream-4-5-251128 Image and Text Generation (Single Image Input, Single Image Output)](https://yunwu.apifox.cn/api-386006883.md): Given a prompt and/or an input image, the model will generate a new image.
-- Painting Model > Doubao Series [doubao-seedream-4-5-251128 Multi-Image Fusion (Multiple Image Input, Single Image Output)](https://yunwu.apifox.cn/api-386006895.md): Given a prompt and/or an input image, the model will generate a new image.
-- Painting Model > Doubao Series [doubao-seedream-4-5-251128 Image Output (Multiple Image Output)](https://yunwu.apifox.cn/api-386006896.md): Given a prompt and/or an input image, the model will generate a new image.
-- Painting Model > Doubao Series [doubao-seedream-4-5-251128 Single Image Generates Group Image](https://yunwu.apifox.cn/api-386006897.md): Given a prompt and/or an input image, the model will generate a new image.
-- Painting Model > Doubao Series [doubao-seedream-4-5-251128 Multi-reference Image Generator](https://yunwu.apifox.cn/api-386006898.md): Given a prompt and/or an input image, the model will generate a new image.
-- Painting Model > Fal.ai Platform [Get Request Result](https://yunwu.apifox.cn/api-343816375.md):
-- Painting Models > Fal.ai Platform [/fal-ai/nano-banana Textual Image](https://yunwu.apifox.cn/api-341948426.md): Official Documentation: https://fal.ai/models/fal-ai/nano-banana
-- Painting Models > Fal.ai Platform [/fal-ai/nano-banana/edit Image Editing](https://yunwu.apifox.cn/api-341952136.md): Official Documentation: https://fal.ai/models/fal-ai/nano-banana/edit
-- Painting Model > Tencent AIGC Raw Image [Get Request Result](https://yunwu.apifox.cn/api-398427540.md):
-- Painting Model > Tencent AIGC Raw Image [Creating Task](https://yunwu.apifox.cn/api-398427541.md): Official Documentation: https://cloud.tencent.com/document/product/266/126240
-- Painting Model > Qwen Series [qwen-image-max](https://yunwu.apifox.cn/api-402380063.md):
-- Painting Model > Qwen Series [z-image-turbo](https://yunwu.apifox.cn/api-402387320.md):
-- Painting Model > Qwen Series [qwen-image-edit-2509](https://yunwu.apifox.cn/api-354490509.md): Given a prompt and/or an input image, the model will generate a new image.
+- Image Model > Midjourney [Upload Image](https://yunwu.apifox.cn/api-277975070.md): Official Documentation: https://docs.midjourney.com/hc/en-us/articles/33329380893325-Managing-Image-Uploads
+- Image Models > Midjourney [Submit Imagine Task](https://yunwu.apifox.cn/api-232421938.md): Official Documentation: https://docs.midjourney.com/hc/en-us/articles/32023408776205-Prompt-Basics
+- Image Model > Midjourney [Query Task Status by Task ID](https://yunwu.apifox.cn/api-232421939.md):
+- Image Model > Midjourney [Search Tasks by ID List](https://yunwu.apifox.cn/api-232421940.md):
+- Image Model > Midjourney [Get the seed for the task image](https://yunwu.apifox.cn/api-232421941.md):
+- Image Model > Midjourney [Execute Action](https://yunwu.apifox.cn/api-232421942.md): Official Documentation: https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers
+- Image Models > Midjourney [Submit Blend Task](https://yunwu.apifox.cn/api-232421943.md): Official Documentation: https://docs.midjourney.com/hc/en-us/articles/32635189884557-Blend-Images-on-Discord
+- Image Models > Midjourney [Submit Describe Task](https://yunwu.apifox.cn/api-232421944.md): Official Documentation: https://docs.midjourney.com/hc/en-us/articles/32497889043981-Describe
+- Image Model > Midjourney [Submit Modal](https://yunwu.apifox.cn/api-232421946.md):
+- Image Model > Ideogram [Generate 3.0 (Text-based Image) Generate ](https://yunwu.apifox.cn/api-295835676.md): Uses the Ideogram 3.0 model to synchronously generate images based on given prompts and optional parameters.
+- Image Model > Ideogram [Generate 3.0 (Image Editing)](https://yunwu.apifox.cn/api-295871433.md): Uses the Ideogram 3.0 model to synchronously generate images based on given prompts and optional parameters.
+- Image Model > Ideogram [Generate 3.0 (Image Remix)](https://yunwu.apifox.cn/api-295904276.md): Uses the Ideogram 3.0 model to synchronously generate images based on given prompts and optional parameters.
+- Image Model > Ideogram [Generate 3.0 (Image Reframe)](https://yunwu.apifox.cn/api-295903393.md): Uses the Ideogram 3.0 model to synchronously generate images based on given prompts and optional parameters.
+- Image Model > Ideogram [Generate 3.0 (Replace Background)](https://yunwu.apifox.cn/api-295906880.md): Uses the Ideogram 3.0 model to synchronously generate images based on given prompts and optional parameters.
+- Image Model > Ideogram [ideogram（文生图）](https://yunwu.apifox.cn/api-244680463.md): Generates images synchronously based on a given prompt and optional parameters.
+- Image Model > Ideogram [Remix](https://yunwu.apifox.cn/api-244685410.md): Official Documentation: https://developer.ideogram.ai/api-reference/api-reference/remix
+- Image Model > Ideogram [Upscale](https://yunwu.apifox.cn/api-244685729.md): Official Documentation: https://developer.ideogram.ai/api-reference/api-reference/upscale
+- Image Model > Ideogram [Describe](https://yunwu.apifox.cn/api-244685783.md): Official Documentation: https://developer.ideogram.ai/api-reference/api-reference/describe
+- Image Models > GPT Image Series [Create gpt-image-1](https://yunwu.apifox.cn/api-290549047.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Image Models > GPT Image Series [edit gpt-image-1](https://yunwu.apifox.cn/api-290558485.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Image Models > GPT Image Series [Mask gpt-image-1](https://yunwu.apifox.cn/api-313708616.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker at each location.
+- Image Models > GPT Image Series [Create gpt-image-1.5](https://yunwu.apifox.cn/api-392793165.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Image Models > GPT Image Series [edit gpt-image-1.5](https://yunwu.apifox.cn/api-393805052.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Image Models > GPT Image Series [Mask gpt-image-1.5](https://yunwu.apifox.cn/api-393805053.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Image Model > DALL·E 3 [Create DALL·E 3](https://yunwu.apifox.cn/api-326547908.md): [Images](https://platform.openai.com/docs/api-reference/images)
+- Image Model > FLUX Series > GPT Compatible Format [Flux Creation (OpenAI dall-e-3 Format)](https://yunwu.apifox.cn/api-232421932.md): [Image](https://platform.openai.com/docs/api-reference/images)
+- Image Model > FLUX Series > gpt Compatible Format [Flux Edit (OpenAI dall-e-3 format)](https://yunwu.apifox.cn/api-306816728.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Image Models > FLUX Series > Replicate Official Format [Creating a Task black-forest-labs/flux-kontext-dev](https://yunwu.apifox.cn/api-321167741.md): Official Documentation: https://replicate.com/black-forest-labs/flux-kontext-dev
+- Image Models > FLUX Series > Replicate Official Format [Search Task](https://yunwu.apifox.cn/api-321172927.md): Official Documentation: https://replicate.com/black-forest-labs/flux-kontext-max
+- Image Model > Doubao Series [doubao-seedream-3-0-t2i-250415](https://yunwu.apifox.cn/api-328094105.md): Given a prompt and/or an input image, the model will generate a new image.
+- Image Model > Doubao Series [doubao-seededit-3-0-i2i-250628](https://yunwu.apifox.cn/api-328094825.md): Given a prompt and/or an input image, the model will generate a new image.
+- Image Model > Doubao Series [doubao-seedream-4-0-250828-文生图](https://yunwu.apifox.cn/api-347960869.md): Given a prompt and/or an input image, the model will generate a new image.
+- Image Model > Doubao Series [doubao-seedream-4-0-250828-raw image](https://yunwu.apifox.cn/api-347961511.md): Given a prompt and/or an input image, the model will generate a new image.
+- Image Model > Doubao Series [doubao-seedream-4-0-250828-Multiple Raw Images](https://yunwu.apifox.cn/api-349230272.md): Given a prompt and/or an input image, the model will generate a new image.
+- Image Model > Doubao Series [doubao-seedream-4-5-251128 Text-based Image (Plain Text Input, Single Image Output)](https://yunwu.apifox.cn/api-385964102.md): Given a prompt and/or an input image, the model will generate a new image.
+- Image Model > Doubao Series [doubao-seedream-4-5-251128 Image and Text Generation (Single Image Input, Single Image Output)](https://yunwu.apifox.cn/api-386006883.md): Given a prompt and/or an input image, the model will generate a new image.
+- Image Model > Doubao Series [doubao-seedream-4-5-251128 Multi-Image Fusion (Multiple Image Input, Single Image Output)](https://yunwu.apifox.cn/api-386006895.md): Given a prompt and/or an input image, the model will generate a new image.
+- Image Model > Doubao Series [doubao-seedream-4-5-251128 Image Output (Multiple Image Output)](https://yunwu.apifox.cn/api-386006896.md): Given a prompt and/or an input image, the model will generate a new image.
+- Image Model > Doubao Series [doubao-seedream-4-5-251128 Single Image Generates Group Image](https://yunwu.apifox.cn/api-386006897.md): Given a prompt and/or an input image, the model will generate a new image.
+- Image Model > Doubao Series [doubao-seedream-4-5-251128 Multi-reference Image Generator](https://yunwu.apifox.cn/api-386006898.md): Given a prompt and/or an input image, the model will generate a new image.
+- Image Model > Fal.ai Platform [Get Request Result](https://yunwu.apifox.cn/api-343816375.md):
+- Image Model > Fal.ai Platform [/fal-ai/nano-banana Textual Image](https://yunwu.apifox.cn/api-341948426.md): Official Documentation: https://fal.ai/models/fal-ai/nano-banana
+- Image Model > Fal.ai Platform [/fal-ai/nano-banana/edit Image Editing](https://yunwu.apifox.cn/api-341952136.md): Official Documentation: https://fal.ai/models/fal-ai/nano-banana/edit
+- Image Model > Tencent AIGC Raw Image [Get Request Result](https://yunwu.apifox.cn/api-398427540.md):
+- Image Model > Tencent AIGC Raw Image [Creating Task](https://yunwu.apifox.cn/api-398427541.md): Official Documentation: https://cloud.tencent.com/document/product/266/126240
+- Image Model > Qwen Series [qwen-image-max](https://yunwu.apifox.cn/api-402380063.md):
+- Image Model > Qwen Series [z-image-turbo](https://yunwu.apifox.cn/api-402387320.md):
+- Image Model > Qwen Series [qwen-image-edit-2509](https://yunwu.apifox.cn/api-354490509.md): Given a prompt and/or an input image, the model will generate a new image.
 - Video Model > VEO Video Generation > Unified Video Format [Create Video](https://yunwu.apifox.cn/api-311044999.md):
 - Video Model > VEO Video Generation > Unified Video Format [Create Video with Images](https://yunwu.apifox.cn/api-311083745.md):
 - Video Models > VEO Video Generation > Unified Video Format [Query Task](https://yunwu.apifox.cn/api-311081757.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
@@ -225,7 +186,7 @@
 - Video Model > Conch Video Generation [Video Task Status Query](https://yunwu.apifox.cn/api-327360871.md):
 - Video Model > Conch Video Generation [Image-Based Video](https://yunwu.apifox.cn/api-371508313.md): Official Documentation: https://www.minimax.io/platform/document/Model%3Fkey=684261f14c5738213294faa7?key=66d1439376e52fcee2853049&document=video_generation
 - Video Model > Conch Video Generation [First and Last Frame Video](https://yunwu.apifox.cn/api-371508337.md): Official Documentation: https://www.minimax.io/platform/document/Model%3Fkey=684261f14c5738213294faa7?key=66d1439376e52fcee2853049&document=video_generation
-- Video Model > Doubao Video Generation [Wensheng Video Example](https://yunwu.apifox.cn/api-350878596.md): Official Documentation: https://www.volcengine.com/docs/82379/1520757
+- Video Model > Doubao Video Generation [Video Example](https://yunwu.apifox.cn/api-350878596.md): Official Documentation: https://www.volcengine.com/docs/82379/1520757
 - Video Model > Doubao Video Generation [Image-Based Video - First Frame](https://yunwu.apifox.cn/api-350891452.md): Official Documentation: https://www.volcengine.com/docs/82379/1520757
 - Video Model > Bean Bun Video Generation [seedance-lite-first and last frames](https://yunwu.apifox.cn/api-350896578.md):
 - Video Model > Doubao Video Generation [Graphic Video - Base64 Encoding](https://yunwu.apifox.cn/api-351548550.md): Official Documentation: https://www.volcengine.com/docs/82379/1520757
@@ -265,30 +226,30 @@
 - System API [Modify Token](https://yunwu.apifox.cn/api-356116138.md):
 - System API [Search Token](https://yunwu.apifox.cn/api-356116296.md):
 - System API [Delete Token](https://yunwu.apifox.cn/api-356116177.md):
-- Wensheng Music Suno > Task Submission [Generate Song (Inspiration Mode)](https://yunwu.apifox.cn/api-248983692.md):
-- Wensheng Music Suno > Task Submission [Generate Song (Custom Mode)](https://yunwu.apifox.cn/api-305049181.md):
-- Wensheng Music Suno > Task Submission [Generate Song (Continuation Mode)](https://yunwu.apifox.cn/api-305049317.md):
-- Wensheng Music Suno > Task Submission [Generate Song (Singer Style)](https://yunwu.apifox.cn/api-305049365.md): # Integration Steps
+- Music Suno > Task Submission [Generate Song (Inspiration Mode)](https://yunwu.apifox.cn/api-248983692.md):
+- Music Suno > Task Submission [Generate Song (Custom Mode)](https://yunwu.apifox.cn/api-305049181.md):
+- Music Suno > Task Submission [Generate Song (Continuation Mode)](https://yunwu.apifox.cn/api-305049317.md):
+- Music Suno > Task Submission [Generate Song (Singer Style)](https://yunwu.apifox.cn/api-305049365.md): # Integration Steps
 - Suno Music > Task Submission [Generate Song (Upload Song for Secondary Creation)](https://yunwu.apifox.cn/api-305049403.md):
-- Wensheng Music Suno > Task Submission [Generate Song (Song Combination)](https://yunwu.apifox.cn/api-305049407.md):
-- Wensheng Music Suno > Task Submission [Generate Lyrics](https://yunwu.apifox.cn/api-248983798.md):
+- Music Suno > Task Submission [Generate Song (Song Combination)](https://yunwu.apifox.cn/api-305049407.md):
+- Music Suno > Task Submission [Generate Lyrics](https://yunwu.apifox.cn/api-248983798.md):
 - Suno Music > Task Submission [Song Combination](https://yunwu.apifox.cn/api-248984121.md):
-- Wensheng Music Suno > Task Submission [Report Upload Complete](https://yunwu.apifox.cn/api-402408952.md): ┌───────────────────────────────────────────────────────────┐
-- Wensheng Music Suno > Task Submission [Check Upload Processing Status](https://yunwu.apifox.cn/api-402408975.md): ┌───────────────────────────────────────────────────────────┐
+- Music Suno > Task Submission [Report Upload Complete](https://yunwu.apifox.cn/api-402408952.md): ┌───────────────────────────────────────────────────────────┐
+- Music Suno > Task Submission [Check Upload Processing Status](https://yunwu.apifox.cn/api-402408975.md): ┌───────────────────────────────────────────────────────────┐
 - Suno Music > Task Submission [Initialize Audio Files](https://yunwu.apifox.cn/api-402411275.md): ┌───────────────────────────────────────────────────────────┐
-- Wensheng Music Suno > Task Submission [Request Upload Authorization](https://yunwu.apifox.cn/api-402407540.md): ┌───────────────────────────────────────────────────────────┐
-- Wensheng Music Suno > Task Submission [S3 Upload Example](https://yunwu.apifox.cn/api-402412563.md):
-- Wensheng Music Suno > Task Submission [Scenario 1: Inspiration Mode](https://yunwu.apifox.cn/api-408841413.md):
-- Wensheng Music Suno > Task Submission [Scenario 2: Custom.Lyrics/Song Title](https://yunwu.apifox.cn/api-408842497.md):
+- Music Suno > Task Submission [Request Upload Authorization](https://yunwu.apifox.cn/api-402407540.md): ┌───────────────────────────────────────────────────────────┐
+- Music Suno > Task Submission [S3 Upload Example](https://yunwu.apifox.cn/api-402412563.md):
+- Music Suno > Task Submission [Scenario 1: Inspiration Mode](https://yunwu.apifox.cn/api-408841413.md):
+- Music Suno > Task Submission [Scenario 2: Custom.Lyrics/Song Title](https://yunwu.apifox.cn/api-408842497.md):
 - Suno Music > Task Submission [Scenario 3: Pure Music.Custom](https://yunwu.apifox.cn/api-408850611.md):
-- Wensheng Music Suno > Query Interface [Batch Retrieval Tasks](https://yunwu.apifox.cn/api-248984125.md):
-- Wensheng Music Suno > Query Interface [Query Single Task](https://yunwu.apifox.cn/api-248984180.md):
-- Wensheng Music Suno > Query API [Get WAV](https://yunwu.apifox.cn/api-357249347.md):
-- Wensheng Music Suno > Query API [Timing: Lyrics, Audio Timeline](https://yunwu.apifox.cn/api-408281974.md):
-- Wensheng Music Suno > Query API [Get Scene Details](https://yunwu.apifox.cn/api-408764477.md):
+- Music Suno > Query Interface [Batch Retrieval Tasks](https://yunwu.apifox.cn/api-248984125.md):
+- Music Suno > Query Interface [Query Single Task](https://yunwu.apifox.cn/api-248984180.md):
+- Music Suno > Query API [Get WAV](https://yunwu.apifox.cn/api-357249347.md):
+- Music Suno > Query API [Timing: Lyrics, Audio Timeline](https://yunwu.apifox.cn/api-408281974.md):
+- Music Suno > Query API [Get Scene Details](https://yunwu.apifox.cn/api-408764477.md):
 - Rerank model [Rerank](https://yunwu.apifox.cn/api-319966930.md): Given a hint, this model will return the completion of one or more predictions, and can also return the probability of the alternative label at each position.
-- Kling Platform > Wensheng Video [Wensheng Video](https://yunwu.apifox.cn/api-386060323.md):
-- Kling Platform > Wensheng Video [Query Task (Single)](https://yunwu.apifox.cn/api-386109649.md):
+- Kling Platform > Video [Video](https://yunwu.apifox.cn/api-386060323.md):
+- Kling Platform > Video [Query Task (Single)](https://yunwu.apifox.cn/api-386109649.md):
 - Kling Platform > Image-based Video [Image-based Video](https://yunwu.apifox.cn/api-386132041.md):
 - Kling Platform > Image-Based Video [Query Task (Single)](https://yunwu.apifox.cn/api-386175789.md):
 - Kling Platform > Omni-Video [Omni-Video](https://yunwu.apifox.cn/api-393296337.md):
@@ -316,8 +277,8 @@
 - Kling Platform > Image Recognition [Image Recognition](https://yunwu.apifox.cn/api-386307948.md):
 - Kling Platform > Digital Human [Digital Human](https://yunwu.apifox.cn/api-386315766.md):
 - Kling Platform > Digital Human [Query Task (Single)](https://yunwu.apifox.cn/api-386332700.md):
-- Kling Platform > Vincent Sound Effects [Vincent Sound Effects](https://yunwu.apifox.cn/api-386322140.md):
-- Kling Platform > Wensheng Sound Effects [Query Task (Single)](https://yunwu.apifox.cn/api-386327064.md):
+- Kling Platform > Sound Effects [Sound Effects](https://yunwu.apifox.cn/api-386322140.md):
+- Kling Platform > Sound Effects [Query Task (Single)](https://yunwu.apifox.cn/api-386327064.md):
 - Kling Platform > Video Audio Generation [Video Audio Generation](https://yunwu.apifox.cn/api-386338588.md):
 - Kling Platform > Video Audio Generation [Query Task (Single)](https://yunwu.apifox.cn/api-386342547.md):
 - Kling Platform > Speech Synthesis [Speech Synthesis](https://yunwu.apifox.cn/api-386347843.md):

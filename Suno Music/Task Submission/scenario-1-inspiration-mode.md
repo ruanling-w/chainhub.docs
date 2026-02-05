@@ -1,4 +1,4 @@
-﻿# Scene 3: Pure Music. Custom
+﻿# Scene 1: Inspiration Mode
 
 ## OpenAPI Specification
 
@@ -11,11 +11,11 @@ info:
 paths:
   /suno/generate:
     post:
-      summary: "Scene 3: Pure Music. Custom"
+      summary: "Scene 1: Inspiration Mode"
       deprecated: false
       description: ""
       tags:
-        - Wensheng Music Suno / Task Submission
+        - Music Suno / Task Submission
       parameters: []
       requestBody:
         content:
@@ -24,14 +24,7 @@ paths:
               type: object
               properties: {}
             example:
-              prompt: ""
-              tags: heavy metal
-              mv: chirp-v3-5
-              title: 北京
-              continue_clip_id: null
-              continue_at: null
-              infill_start_s: null
-              infill_end_s: null
+              gpt_description_prompt: Nostalgia
       responses:
         "200":
           description: ""
@@ -44,9 +37,9 @@ paths:
           x-apifox-name: success
       security:
         - bearer: []
-      x-apifox-folder: Wensheng Music Suno / Task Submission
+      x-apifox-folder: Music Suno / Task Submission
       x-apifox-status: developing
-      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-408850611-run
+      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-408841413-run
 components:
   schemas: {}
   securitySchemes:

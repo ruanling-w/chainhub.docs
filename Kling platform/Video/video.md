@@ -1,4 +1,4 @@
-# Wensheng Video
+# Video
 
 ## OpenAPI Specification
 
@@ -11,11 +11,11 @@ info:
 paths:
   /kling/v1/videos/text2video:
     post:
-      summary: Wensheng Video
+      summary: Video
       deprecated: false
       description: ''
       tags:
-        - Kling Platform / Wensheng Video
+        - Kling Platform / Video
       parameters:
         - name: Content-Type
           in: header
@@ -160,7 +160,7 @@ paths:
           x-apifox-name: success
       security:
         - bearer: []
-      x-apifox-folder: Kling Platform / Wensheng Video
+      x-apifox-folder: Kling Platform / Video
       x-apifox-status: released
       x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-386060323-run
 components:

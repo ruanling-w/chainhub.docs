@@ -1,4 +1,4 @@
-# Query task (single)
+﻿# Song splicing
 
 ## OpenAPI Specification
 
@@ -9,25 +9,25 @@ info:
   description: ""
   version: 1.0.0
 paths:
-  /kling/v1/videos/text2video/{id}:
-    get:
-      summary: Query task (single)
+  /suno/submit/concat:
+    post:
+      summary: Song splicing
       deprecated: false
       description: ""
       tags:
-        - Kling Platform / Wensheng Video
+        - Music Suno / Task Submission
       parameters:
-        - name: id
-          in: path
-          description: ""
-          required: true
-          example: "827996385395363846"
-          schema:
-            type: string
         - name: Content-Type
           in: header
           description: ""
-          required: false
+          required: true
+          example: application/json
+          schema:
+            type: string
+        - name: Accept
+          in: header
+          description: ""
+          required: true
           example: application/json
           schema:
             type: string
@@ -43,8 +43,22 @@ paths:
           application/json:
             schema:
               type: object
-              properties: {}
-            example: "// {\r\n//\"task_id\": \"kling-v1825380683199176793\", // Wensheng Video's task ID. Request path parameter; directly fill in the value in the request path. Choose one of two query methods: external_task_id or external_task_id.\r\n// \"external_task_id\": \"\", // Wensheng Video's custom task ID. The external_task_id filled in when creating the task. Choose one of two query methods: task_id or external_task_id.\r\n// }"
+              properties:
+                clip_id:
+                  description: |+
+                    Song ID after extend
+
+                  type: string
+                is_infill:
+                  type: string
+              required:
+                - clip_id
+              x-apifox-orders:
+                - clip_id
+                - is_infill
+            example:
+              clip_id: Song ID after extend
+              is_infill: false
       responses:
         "200":
           description: ""
@@ -52,14 +66,24 @@ paths:
             application/json:
               schema:
                 type: object
-                properties: {}
+                properties:
+                  code:
+                    type: string
+                  data:
+                    type: string
+                  message:
+                    type: string
+                required:
+                  - code
+                  - data
+                  - message
           headers: {}
           x-apifox-name: success
       security:
         - bearer: []
-      x-apifox-folder: Kling Platform / Wensheng Video
+      x-apifox-folder: Music Suno / Task Submission
       x-apifox-status: released
-      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-386109649-run
+      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-248984121-run
 components:
   schemas: {}
   securitySchemes:

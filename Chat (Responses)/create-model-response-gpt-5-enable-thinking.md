@@ -11,7 +11,7 @@ info:
 paths:
   /v1/responses:
     post:
-      summary: Creating Model Responses: GPT-5 Enables Thinking
+      summary: "Creating Model Responses: GPT-5 Enables Thinking"
       deprecated: false
       description: |-
         https://platform.openai.com/docs/api-reference/responses/create

@@ -1,4 +1,4 @@
-﻿# Get scene details
+# Query task (single)
 
 ## OpenAPI Specification
 
@@ -9,14 +9,28 @@ info:
   description: ""
   version: 1.0.0
 paths:
-  /suno/feed/91c29474-20cd-44c7-8199-f206410651e3:
+  /kling/v1/audio/text-to-audio/{id}:
     get:
-      summary: Get scene details
+      summary: Query task (single)
       deprecated: false
       description: ""
       tags:
-        - Wensheng Music Suno/Query Interface
+        - Kling platform/Audio
       parameters:
+        - name: id
+          in: path
+          description: ""
+          required: true
+          example: "825451760445050918"
+          schema:
+            type: string
+        - name: Content-Type
+          in: header
+          description: ""
+          required: false
+          example: application/json
+          schema:
+            type: string
         - name: Authorization
           in: header
           description: ""
@@ -24,13 +38,6 @@ paths:
           example: Bearer {{YOUR_API_KEY}}
           schema:
             type: string
-      requestBody:
-        content:
-          application/json:
-            schema:
-              type: object
-              properties: {}
-            example: ""
       responses:
         "200":
           description: ""
@@ -43,9 +50,9 @@ paths:
           x-apifox-name: success
       security:
         - bearer: []
-      x-apifox-folder: Wensheng Music Suno/Query Interface
-      x-apifox-status: developing
-      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-408764477-run
+      x-apifox-folder: Kling platform/Audio
+      x-apifox-status: testing
+      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-386327064-run
 components:
   schemas: {}
   securitySchemes:

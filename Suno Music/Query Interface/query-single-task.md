@@ -1,4 +1,4 @@
-﻿# Generate a song (compose a song)
+﻿# Query a single task
 
 ## OpenAPI Specification
 
@@ -9,14 +9,21 @@ info:
   description: ""
   version: 1.0.0
 paths:
-  /suno/submit/music:
-    post:
-      summary: Generate a song (compose a song)
+  /suno/fetch/{task_id}:
+    get:
+      summary: Query a single task
       deprecated: false
       description: ""
       tags:
-        - Wensheng Music Suno / Task Submission
+        - Music Suno/Query Interface
       parameters:
+        - name: task_id
+          in: path
+          description: ""
+          required: true
+          example: b967838b-d377-478d-9a57-d7ca6129ae60
+          schema:
+            type: string
         - name: Content-Type
           in: header
           description: ""
@@ -38,26 +45,6 @@ paths:
           example: Bearer {{YOUR_API_KEY}}
           schema:
             type: string
-      requestBody:
-        content:
-          application/json:
-            schema:
-              type: object
-              properties:
-                clip_id:
-                  type: string
-                  description: Song ID after extend
-                is_infill:
-                  type: boolean
-              required:
-                - clip_id
-                - is_infill
-              x-apifox-orders:
-                - clip_id
-                - is_infill
-            example:
-              clip_id: Song ID after extend
-              is_infill: false
       responses:
         "200":
           description: ""
@@ -76,13 +63,17 @@ paths:
                   - code
                   - data
                   - message
+              example:
+                code: success
+                data: 47443cc1-4902-42ae-ae7f-72a9900544e9
+                message: ""
           headers: {}
           x-apifox-name: success
       security:
         - bearer: []
-      x-apifox-folder: Wensheng Music Suno / Task Submission
+      x-apifox-folder: Music Suno/Query Interface
       x-apifox-status: released
-      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-305049407-run
+      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-248984180-run
 components:
   schemas: {}
   securitySchemes:

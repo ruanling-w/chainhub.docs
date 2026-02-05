@@ -1,17 +1,17 @@
-﻿# Request to upload authorization
+﻿# Initialize audio file
 
 ## OpenAPI Specification
 
-```yaml
+````yaml
 openapi: 3.0.1
 info:
   title: ""
   description: ""
   version: 1.0.0
 paths:
-  /suno/uploads/audio:
+  /suno/uploads/audio/{id}/initialize-clip:
     post:
-      summary: Request to upload authorization
+      summary: Initialize audio file
       deprecated: false
       description: |-
         ┌─────────────────────────────────────────────────────────────────┐
@@ -49,23 +49,25 @@ paths:
         │ POST /suno/submit/music                                         │
         │ ↓ Returns: task_id (billing starts)                             │
         └─────────────────────────────────────────────────────────────────┘
+        ```
       tags:
-        - Wensheng Music Suno / Task Submission
-      parameters: []
+        - Music Suno / Task Submission
+      parameters:
+        - name: id
+          in: path
+          description: ""
+          required: true
+          example: ""
+          schema:
+            type: string
       requestBody:
         content:
           application/json:
             schema:
               type: object
-              properties:
-                extension:
-                  type: string
-              required:
-                - extension
-              x-apifox-orders:
-                - extension
-            example:
-              extension: mp3
+              properties: {}
+              x-apifox-orders: []
+            examples: {}
       responses:
         "200":
           description: ""
@@ -74,65 +76,21 @@ paths:
               schema:
                 type: object
                 properties:
-                  id:
+                  clip_id:
                     type: string
-                  url:
-                    type: string
-                  fields:
-                    type: object
-                    properties:
-                      Content-Type:
-                        type: string
-                      key:
-                        type: string
-                      AWSAccessKeyId:
-                        type: string
-                      policy:
-                        type: string
-                      signature:
-                        type: string
-                    required:
-                      - Content-Type
-                      - key
-                      - AWSAccessKeyId
-                      - policy
-                      - signature
-                    x-apifox-orders:
-                      - Content-Type
-                      - key
-                      - AWSAccessKeyId
-                      - policy
-                      - signature
-                  is_file_uploaded:
-                    type: boolean
                 required:
-                  - id
-                  - url
-                  - fields
-                  - is_file_uploaded
+                  - clip_id
                 x-apifox-orders:
-                  - id
-                  - url
-                  - fields
-                  - is_file_uploaded
+                  - clip_id
               example:
-                id: f208ab1f-e93a-4417-b089-e7fc38b50268
-                url: https://suno-uploads.s3.amazonaws.com/
-                fields:
-                  Content-Type: audio/mpeg
-                  key: raw_uploads/f208ab1f-e93a-4417-b089-e7fc38b50268.mp3
-                  AWSAccessKeyId: AKIA2V4GXGDKLZ43MUG7
-                  policy: >-
-                    eyJleHBpcmF0aW9uIjogIjIwMjYtMDEtMDZUMDM6Mjg6MjlaIiwgImNvbmRpdGlvbnMiOiBbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsIDAsIDUyNDI4ODAwMF0sIFsic3RhcnRzLXdpdGgiLCAiJENvbnRlbnQtVHlwZSIsICJhdWRpby9tcGVnIl0sIHsiYnVja2V0IjogInN1bm8tdXBsb2FkcyJ9LCB7ImtleSI6ICJyYXdfdXBsb2Fkcy9mMjA4YWIxZi1lOTNhLTQ0MTctYjA4OS1lN2ZjMzhiNTAyNjgubXAzIn1dfQ==
-                  signature: tevxOl3SW28afyLyzObeCYzIvWI=
-                is_file_uploaded: false
+                clip_id: 05c9b477-4519-4810-9ffa-00580c082067
           headers: {}
           x-apifox-name: success
       security:
         - bearer: []
-      x-apifox-folder: Wensheng Music Suno / Task Submission
+      x-apifox-folder: Music Suno / Task Submission
       x-apifox-status: developing
-      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-402407540-run
+      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-402411275-run
 components:
   schemas: {}
   securitySchemes:
@@ -140,8 +98,8 @@ components:
       type: http
       scheme: bearer
 servers:
-  - url: https://api.chainhub.tech
+  - url: https://api.chainhhub.tech
     description: Production Environment
 security:
   - bearer: []
-```
+````

@@ -1,4 +1,4 @@
-# Wensheng Video Example
+# Video Example
 
 ## OpenAPI Specification
 
@@ -11,7 +11,7 @@ info:
 paths:
   /volc/v1/contents/generations/tasks:
     post:
-      summary: Wensheng Video Example
+      summary: Video Example
       deprecated: false
       description: Official documentation: https://www.volcengine.com/docs/82379/1520757
       tags:

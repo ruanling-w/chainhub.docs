@@ -1,4 +1,4 @@
-﻿# Batch retrieval tasks
+﻿# Generate a song (compose a song)
 
 ## OpenAPI Specification
 
@@ -9,13 +9,13 @@ info:
   description: ""
   version: 1.0.0
 paths:
-  /suno/fetch:
+  /suno/submit/music:
     post:
-      summary: Batch retrieval tasks
+      summary: Generate a song (compose a song)
       deprecated: false
       description: ""
       tags:
-        - Wensheng Music Suno/Query Interface
+        - Music Suno / Task Submission
       parameters:
         - name: Content-Type
           in: header
@@ -45,11 +45,10 @@ paths:
               type: object
               properties:
                 clip_id:
-                  description: |+
-                    Song ID after extend
                   type: string
+                  description: Song ID after extend
                 is_infill:
-                  type: string
+                  type: boolean
               required:
                 - clip_id
                 - is_infill
@@ -57,10 +56,8 @@ paths:
                 - clip_id
                 - is_infill
             example:
-              ids:
-                - b4914cbe-f738-4813-8ac9-4194ae362bed
-                - ccb61d4a-701d-4ef2-b23c-c3ff950fc3b5
-                - 276677a3-bd50-4388-83c9-39ce18f7041f
+              clip_id: Song ID after extend
+              is_infill: false
       responses:
         "200":
           description: ""
@@ -79,17 +76,13 @@ paths:
                   - code
                   - data
                   - message
-              example:
-                code: success
-                data: 47443cc1-4902-42ae-ae7f-72a9900544e9
-                message: ""
           headers: {}
           x-apifox-name: success
       security:
         - bearer: []
-      x-apifox-folder: Wensheng Music Suno/Query Interface
+      x-apifox-folder: Music Suno / Task Submission
       x-apifox-status: released
-      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-248984125-run
+      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-305049407-run
 components:
   schemas: {}
   securitySchemes:

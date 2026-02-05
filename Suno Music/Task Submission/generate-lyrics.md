@@ -1,4 +1,4 @@
-# Vincent sound effects
+﻿# Generate lyrics
 
 ## OpenAPI Specification
 
@@ -9,18 +9,25 @@ info:
   description: ""
   version: 1.0.0
 paths:
-  /kling/v1/audio/text-to-audio:
+  /suno/submit/lyrics:
     post:
-      summary: Vincent sound effects
+      summary: Generate lyrics
       deprecated: false
       description: ""
       tags:
-        - Kling platform/Vincent Audio
+        - Music Suno / Task Submission
       parameters:
         - name: Content-Type
           in: header
           description: ""
-          required: false
+          required: true
+          example: application/json
+          schema:
+            type: string
+        - name: Accept
+          in: header
+          description: ""
+          required: true
           example: application/json
           schema:
             type: string
@@ -39,27 +46,17 @@ paths:
               properties:
                 prompt:
                   type: string
-                  description: Text prompts
-                duration:
+                  description: Lyrics prompts
+                notify_hook:
                   type: string
-                  description: The duration of the generated audio can range from 3.0 seconds to 10.0 seconds, supporting one decimal place precision.
-                external_task_id:
-                  type: string
-                callback_url:
-                  type: string
+                  description: Callback address
               required:
                 - prompt
-                - duration
               x-apifox-orders:
                 - prompt
-                - duration
-                - external_task_id
-                - callback_url
+                - notify_hook
             example:
-              prompt: Audio describing the scenery
-              duration: 5
-              external_task_id: ""
-              callback_url: ""
+              prompt: dance
       responses:
         "200":
           description: ""
@@ -67,14 +64,24 @@ paths:
             application/json:
               schema:
                 type: object
-                properties: {}
+                properties:
+                  code:
+                    type: string
+                  data:
+                    type: string
+                  message:
+                    type: string
+                required:
+                  - code
+                  - data
+                  - message
           headers: {}
           x-apifox-name: success
       security:
         - bearer: []
-      x-apifox-folder: Kling platform/Vincent Audio
-      x-apifox-status: testing
-      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-386322140-run
+      x-apifox-folder: Music Suno / Task Submission
+      x-apifox-status: released
+      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-248983798-run
 components:
   schemas: {}
   securitySchemes:

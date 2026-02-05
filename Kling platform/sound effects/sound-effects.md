@@ -1,4 +1,4 @@
-﻿# Song splicing
+# sound effects
 
 ## OpenAPI Specification
 
@@ -9,25 +9,18 @@ info:
   description: ""
   version: 1.0.0
 paths:
-  /suno/submit/concat:
+  /kling/v1/audio/text-to-audio:
     post:
-      summary: Song splicing
+      summary: sound effects
       deprecated: false
       description: ""
       tags:
-        - Wensheng Music Suno / Task Submission
+        - Kling platform/Audio
       parameters:
         - name: Content-Type
           in: header
           description: ""
-          required: true
-          example: application/json
-          schema:
-            type: string
-        - name: Accept
-          in: header
-          description: ""
-          required: true
+          required: false
           example: application/json
           schema:
             type: string
@@ -44,21 +37,29 @@ paths:
             schema:
               type: object
               properties:
-                clip_id:
-                  description: |+
-                    Song ID after extend
-
+                prompt:
                   type: string
-                is_infill:
+                  description: Text prompts
+                duration:
+                  type: string
+                  description: The duration of the generated audio can range from 3.0 seconds to 10.0 seconds, supporting one decimal place precision.
+                external_task_id:
+                  type: string
+                callback_url:
                   type: string
               required:
-                - clip_id
+                - prompt
+                - duration
               x-apifox-orders:
-                - clip_id
-                - is_infill
+                - prompt
+                - duration
+                - external_task_id
+                - callback_url
             example:
-              clip_id: Song ID after extend
-              is_infill: false
+              prompt: Audio describing the scenery
+              duration: 5
+              external_task_id: ""
+              callback_url: ""
       responses:
         "200":
           description: ""
@@ -66,24 +67,14 @@ paths:
             application/json:
               schema:
                 type: object
-                properties:
-                  code:
-                    type: string
-                  data:
-                    type: string
-                  message:
-                    type: string
-                required:
-                  - code
-                  - data
-                  - message
+                properties: {}
           headers: {}
           x-apifox-name: success
       security:
         - bearer: []
-      x-apifox-folder: Wensheng Music Suno / Task Submission
-      x-apifox-status: released
-      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-248984121-run
+      x-apifox-folder: Kling platform/Audio
+      x-apifox-status: testing
+      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-386322140-run
 components:
   schemas: {}
   securitySchemes:
