@@ -1,0 +1,276 @@
+# Create Function Call
+
+## OpenAPI Specification
+
+```yaml
+openapi: 3.0.1
+info:
+  title: ''
+  description: ''
+  version: 1.0.0
+paths:
+  /v1/responses:
+    post:
+      summary: Create Function Call
+      deprecated: false
+      description: |-
+        https://platform.openai.com/docs/api-reference/responses/create
+        Some OpenAI models only support Response format, such as o3-pro, codex-mini-latest
+      tags:
+        - Chat (Responses)
+      parameters:
+        - name: Content-Type
+          in: header
+          description: ''
+          required: true
+          example: application/json
+          schema:
+            type: string
+        - name: Accept
+          in: header
+          description: ''
+          required: true
+          example: application/json
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: ''
+          required: false
+          example: Bearer {{YOUR_API_KEY}}
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                model:
+                  type: string
+                  description: The ID of the model to use. See the Model Endpoint Compatibility Table for details on which models can be used with the Chat API.
+                input:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      role:
+                        type: string
+                      content:
+                        type: string
+                    x-apifox-orders:
+                      - role
+                      - content
+              x-apifox-orders:
+                - model
+                - input
+            example:
+              input:
+                - role: user
+                  content: |-
+                    Please do the following things for me at the same time:
+                    1. Get the current system time
+                    2. Check system info (OS, memory, etc.)
+                    3. Calculate the result of 123.5 + 456.7
+                    4. Generate 3 random numbers between 1 and 100
+
+                    This is a parallel tool call test, please execute these tasks simultaneously.
+              metadata:
+                model_id: '32'
+              model: gpt-4.1
+              tool_choice: auto
+              tools:
+                - type: function
+                  name: random_generator
+                  description: Generate random numbers within a specified range, supporting batch generation
+                  parameters:
+                    type: object
+                    properties:
+                      min:
+                        description: Minimum value (default 1)
+                        type: integer
+                      max:
+                        description: Maximum value (default 100)
+                        type: integer
+                      count:
+                        description: Quantity to generate (default 1, max 10)
+                        type: integer
+                - type: function
+                  name: system_info
+                  description: Get basic system info, including OS, Java version, memory usage, etc.
+                  parameters:
+                    type: object
+                    properties: {}
+                - type: function
+                  name: math_calculator
+                  description: Perform basic math operations, supporting add, subtract, multiply, divide, power
+                  parameters:
+                    type: object
+                    properties:
+                      a:
+                        description: First number
+                        type: number
+                      b:
+                        description: Second number
+                        type: number
+                      operation:
+                        description: 'Operation type: add, subtract, multiply, divide, power'
+                        type: string
+                    required:
+                      - operation
+                      - a
+                      - b
+                - type: function
+                  name: current_time
+                  description: Get current system time
+                  parameters:
+                    type: object
+                    properties: {}
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  object:
+                    type: string
+                  created:
+                    type: integer
+                  choices:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        index:
+                          type: integer
+                        message:
+                          type: object
+                          properties:
+                            role:
+                              type: string
+                            content:
+                              type: string
+                          required:
+                            - role
+                            - content
+                          x-apifox-orders:
+                            - role
+                            - content
+                        finish_reason:
+                          type: string
+                      x-apifox-orders:
+                        - index
+                        - message
+                        - finish_reason
+                  usage:
+                    type: object
+                    properties:
+                      prompt_tokens:
+                        type: integer
+                      completion_tokens:
+                        type: integer
+                      total_tokens:
+                        type: integer
+                    required:
+                      - prompt_tokens
+                      - completion_tokens
+                      - total_tokens
+                    x-apifox-orders:
+                      - prompt_tokens
+                      - completion_tokens
+                      - total_tokens
+                required:
+                  - id
+                  - object
+                  - created
+                  - choices
+                  - usage
+                x-apifox-orders:
+                  - id
+                  - object
+                  - created
+                  - choices
+                  - usage
+              example:
+                id: resp_68ac1558e9488190bcc2cbb94c7d7a140b8064b15a091a77
+                object: response
+                created_at: 1756108120
+                status: completed
+                background: false
+                content_filters: null
+                error: null
+                incomplete_details: null
+                instructions: null
+                max_output_tokens: null
+                max_tool_calls: null
+                model: gpt-4.1-data
+                output:
+                  - id: fc_68ac15594be88190a58217f75a6a54cc0b8064b15a091a77
+                    type: function_call
+                    status: completed
+                    arguments: '{"sign":"Aquarius"}'
+                    call_id: call_6kbB2GTk62PPUNdGuBJPx9KQ
+                    name: get_horoscope
+                parallel_tool_calls: true
+                previous_response_id: null
+                prompt_cache_key: null
+                reasoning:
+                  effort: null
+                  summary: null
+                safety_identifier: null
+                service_tier: default
+                store: true
+                temperature: 1
+                text:
+                  format:
+                    type: text
+                tool_choice: auto
+                tools:
+                  - type: function
+                    description: Get today's horoscope for an astrological sign.
+                    name: get_horoscope
+                    parameters:
+                      properties:
+                        sign:
+                          description: An astrological sign like Taurus or Aquarius
+                          type: string
+                      required:
+                        - sign
+                      type: object
+                    strict: true
+                top_p: 1
+                truncation: disabled
+                usage:
+                  input_tokens: 62
+                  input_tokens_details:
+                    cached_tokens: 0
+                  output_tokens: 18
+                  output_tokens_details:
+                    reasoning_tokens: 0
+                  total_tokens: 80
+                user: null
+                metadata: {}
+          headers: {}
+          x-apifox-name: OK
+      security:
+        - bearer: []
+      x-apifox-folder: Chat (Responses)
+      x-apifox-status: released
+      x-run-in-apifox: https://app.apifox.com/web/project/5443236/apis/api-339209197-run
+components:
+  schemas: {}
+  securitySchemes:
+    bearer:
+      type: http
+      scheme: bearer
+servers:
+  - url: https://api.chainhub.tech
+    description: Production Environment
+security:
+  - bearer: []
+
+```

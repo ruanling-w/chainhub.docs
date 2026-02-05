@@ -1,0 +1,396 @@
+# Cloud and Fog API Interface Integration
+
+## Docs
+- [Introduction](https://yunwu.apifox.cn/doc-5459032.md):
+- [Online Debugging Instructions](https://yunwu.apifox.cn/doc-5459006.md):
+- [Send a request](https://yunwu.apifox.cn/doc-5459007.md):
+- Basic Introduction to the Transfer Station [API Quick Start Guide](https://yunwu.apifox.cn/doc-5459030.md):
+- Basic introduction to the transit station [Contact customer service](https://yunwu.apifox.cn/doc-5459026.md):
+- Basic Introduction to Transit Stations [Detailed Grouping Table](https://yunwu.apifox.cn/doc-5459009.md):
+- Basic Introduction to Transit Stations [Special Characteristics of Grouping and Price Differences](https://yunwu.apifox.cn/doc-5459008.md):
+- Basic Introduction to the Transfer Station [How to Create a Token for a Specific Group](https://yunwu.apifox.cn/doc-5459010.md):
+- Basic introduction to the relay station [Proxy interface call address](https://yunwu.apifox.cn/doc-5459027.md):
+- Basic Introduction to the Transfer Station [API Key Quota Inquiry Service](https://yunwu.apifox.cn/doc-5459028.md):
+- Basic Introduction to the Transfer Station [Free AI Chat Project Navigation](https://yunwu.apifox.cn/doc-5459029.md):
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [Chat Completion Object](https://yunwu.apifox.cn/doc-5459011.md):
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [Chat Completion Block Object](https://yunwu.apifox.cn/doc-5459012.md):
+- Chat > ​​ChatGPT Interface > ChatGPT Auto-Completion [Completion Object](https://yunwu.apifox.cn/doc-5459013.md):
+- Chat > ​​ChatGPT Interface > ChatGPT Embeddings [Embedded Object](https://yunwu.apifox.cn/doc-5459014.md):
+- Chat > ​​Anthropic Claude Interface [Chat Completion Object](https://yunwu.apifox.cn/doc-5459015.md):
+- Chat > ​​Anthropic Claude Interface [Chat Completion Block Object](https://yunwu.apifox.cn/doc-5459016.md):
+- Chat (Responses) [Comparison of Responses API and Chat API](https://yunwu.apifox.cn/doc-7116471.md):
+- Painting Model [README](https://yunwu.apifox.cn/doc-5459017.md):
+- Painting Model [Image Object](https://yunwu.apifox.cn/doc-5459018.md):
+- Painting Models > FLUX Series > Replicate Official Format [Flux Resolution](https://yunwu.apifox.cn/doc-7023049.md):
+- Painting Models > FLUX Series > Replicate Official Format [Integration Tutorial](https://yunwu.apifox.cn/doc-7023048.md):
+- Painting Models > Fal.ai Platform [Status Code](https://yunwu.apifox.cn/doc-7391956.md):
+- Painting Model > Tencent AIGC Raw Image [Status Code](https://yunwu.apifox.cn/doc-7942948.md):
+- Video Model > VEO Video Generation > Unified Video Format [Status Code](https://yunwu.apifox.cn/doc-7391972.md):
+- Video Models > Luma Video Generation > Official API Format [Status Code](https://yunwu.apifox.cn/doc-7391970.md):
+- Video Model > Runway Video Generation [Status Code](https://yunwu.apifox.cn/doc-7391957.md):
+- Video Model > Conch Video Generation [Status Code](https://yunwu.apifox.cn/doc-7391958.md):
+- Video Model > Grok Video Generation > Unified Video Format [Status Code](https://yunwu.apifox.cn/doc-7764812.md):
+- Video Model > Tencent AIGC Video Generation [Status Code](https://yunwu.apifox.cn/doc-7952290.md):
+- GPTs related [Introduction](https://yunwu.apifox.cn/doc-7116516.md):
+- Wensheng Music Suno [Description](https://yunwu.apifox.cn/doc-5751952.md):
+- Wensheng Music Suno [parameters](https://yunwu.apifox.cn/doc-5751953.md):
+- Kling Platform [Callback Protocol](https://yunwu.apifox.cn/doc-5654639.md):
+- Replicate Aggregation Platform [Integration Tutorial](https://yunwu.apifox.cn/doc-7110920.md):
+- Replicate aggregation platform [Flux resolution](https://yunwu.apifox.cn/doc-7110923.md):
+- Fal-ai Aggregation Platform [Access Tutorial](https://yunwu.apifox.cn/doc-7023146.md):
+- PHP configuration method [PHP image editing demo](https://yunwu.apifox.cn/doc-6786581.md):
+- Node.js configuration method [Node.js basic dialogue](https://yunwu.apifox.cn/doc-5459042.md):
+- Python configuration method [Python speech-to-text conversion](https://yunwu.apifox.cn/doc-5459036.md):
+- Python configuration method [Python text-to-speech](https://yunwu.apifox.cn/doc-5459037.md):
+- Python configuration method [Python using Embeddings vectorization](https://yunwu.apifox.cn/doc-5459038.md):
+- Python configuration method [Python calling DALL·E](https://yunwu.apifox.cn/doc-5459039.md):
+- Python configuration method [simple Python calling OpenAI function-calling demo](https://yunwu.apifox.cn/doc-5459040.md):
+- Python configuration method [Python simple langchain calling OpenAI demo](https://yunwu.apifox.cn/doc-5459053.md):
+- Python configuration method [python llama_index configuration](https://yunwu.apifox.cn/doc-5459054.md):
+- Python configuration methods [Python basics discussion](https://yunwu.apifox.cn/doc-5459019.md):
+- Python configuration method [Python using gpt-4o to recognize images - local images](https://yunwu.apifox.cn/doc-5564627.md):
+- Python configuration method [Python using gpt-4o to recognize images](https://yunwu.apifox.cn/doc-5459020.md):
+- Python configuration method [Python using Claude to recognize images](https://yunwu.apifox.cn/doc-5459021.md):
+- Python configuration method [Python library streaming output](https://yunwu.apifox.cn/doc-5808445.md):
+- Python configuration method [GPT realtime model call](https://yunwu.apifox.cn/doc-5918157.md):
+- Python configuration method [Python request request streaming output demo](https://yunwu.apifox.cn/doc-6002210.md):
+- Python configuration method [Creating and editing images using gpt-image-1 in Python](https://yunwu.apifox.cn/doc-6562372.md):
+- Python configuration method [Python OpenAI official library (using AutoGPT, langchain, etc.)](https://yunwu.apifox.cn/doc-5459034.md):
+- Python configuration method [Python continuous dialogue](https://yunwu.apifox.cn/doc-5459035.md):
+- Tutorials on using various plugins/software [Codex Configuration Tutorial](https://yunwu.apifox.cn/doc-7422014.md):
+- Tutorials on using various plugins/software [OpenClaw Clawdbot Custom Relay Station Configuration Tutorial](https://yunwu.apifox.cn/doc-8130178.md):
+- Tutorials on using various plugins/software [N8N Workflow API Transfer Tutorial](https://yunwu.apifox.cn/doc-7248718.md):
+- Tutorials on using various plugins/software [opencode configuration tutorial](https://yunwu.apifox.cn/doc-8105901.md):
+- Tutorials on using various plugins/software [Gemini CLI relay station configuration and usage tutorial](https://yunwu.apifox.cn/doc-7146919.md):
+- Tutorials for using various plugins/software [Claude Code Installation and Usage Tutorial](https://yunwu.apifox.cn/doc-7010249.md):
+- Tutorials on using various plugins/software [CherryStudio calling cluade MCP](https://yunwu.apifox.cn/doc-6458685.md):
+- Tutorials on using various plugins/software [Cherry Studio Configuration Tutorial](https://yunwu.apifox.cn/doc-5987397.md):
+- Tutorials on using various plugins/software [Cherry Studio configuration tutorial for Banana Pro 4K and resolution](https://yunwu.apifox.cn/doc-7865129.md):
+- Tutorials on using various plugins/software [Configuring o4 inference levels in CherryStudio](https://yunwu.apifox.cn/doc-6874585.md):
+- Tutorials on using various plugins/software [Simple configuration of the button workflow from input to URL retrieval](https://yunwu.apifox.cn/doc-7989459.md):
+- Tutorials on using various plugins/software [Adding a model to Dify](https://yunwu.apifox.cn/doc-5900725.md):
+- Tutorials on using various plugins/software [cline configuration tutorial](https://yunwu.apifox.cn/doc-5901956.md):
+- Tutorials on using various plugins/software [Aider Configuration Tutorial](https://yunwu.apifox.cn/doc-5459060.md):
+- Tutorials on using various plugins/software [Cursor Configuration Tutorial](https://yunwu.apifox.cn/doc-5459061.md):
+- Tutorials for using various plugins/software [lobechat setup tutorial](https://yunwu.apifox.cn/doc-5459062.md):
+- Tutorials on using various plugins/software [ChatBox (recommended)](https://yunwu.apifox.cn/doc-5459067.md):
+- Tutorials on using various plugins/software [open source gpt_academic](https://yunwu.apifox.cn/doc-5459068.md):
+- Tutorials for using various plugins/software [nextchat setup tutorial](https://yunwu.apifox.cn/doc-5459059.md):
+- Tutorials on using various plugins/software [zotero gpt configuration method](https://yunwu.apifox.cn/doc-5459064.md):
+- Tutorials on using various plugins/software [CLAUDE DEV Configuration Tutorial](https://yunwu.apifox.cn/doc-5459055.md):
+- Tutorials on using various plugins/software [Setting up GPT translation for immersive translation](https://yunwu.apifox.cn/doc-5459057.md):
+- Tutorials on using various plugins/software [Browser plugin ChatGPT Sidebar](https://yunwu.apifox.cn/doc-5459066.md):
+- Tutorials on using various plugins/software [chatgpt-on-wechat configuration tutorial](https://yunwu.apifox.cn/doc-5459056.md):
+- Tutorials on using various plugins/software [chatgpt GPT Academic Academic Optimization Configuration Tutorial](https://yunwu.apifox.cn/doc-5459063.md):
+- Tutorials on using various plugins/software [RikkaHub Configuration Tutorial](https://yunwu.apifox.cn/doc-7467073.md):
+- Tutorials on using various plugins/software [Coze Workflow API Tutorial](https://yunwu.apifox.cn/doc-7540676.md):
+- Tutorials on using various plugins/software [n8n workflow example for obtaining local images and generating videos](https://yunwu.apifox.cn/doc-7906925.md):
+- Help Center [AI Returned Fields: Thinking Related](https://yunwu.apifox.cn/doc-6186370.md):
+- Help Center [HTTP Status Codes and Their Meanings](https://yunwu.apifox.cn/doc-5459022.md):
+- Help Center [Self-built Image Hosting API](https://yunwu.apifox.cn/doc-7376047.md):
+
+## API Docs
+- Chat > ​​ChatGPT Interface > ChatGPT Audio [GPT-4o-audio](https://yunwu.apifox.cn/api-258427485.md): Official documentation: https://platform.openai.com/docs/api-reference/chat/create
+- Chat > ​​ChatGPT Interface > ChatGPT Audio [Audio to Text whisper-1](https://yunwu.apifox.cn/api-311993207.md): Official documentation: https://platform.openai.com/docs/guides/speech-to-text
+- Chat > ​​ChatGPT Interface > ChatGPT Audio [Audio to Text gpt-4o-transcribe](https://yunwu.apifox.cn/api-232421914.md): Official Documentation: https://platform.openai.com/docs/guides/speech-to-text
+- Chat > ​​ChatGPT Interface > ChatGPT Audio [Creating a voice gpt-4o-mini-tts](https://yunwu.apifox.cn/api-232421913.md): Official documentation: https://platform.openai.com/docs/guides/text-to-speech
+- Chat > ​​ChatGPT Interface > ChatGPT Audio [Create Translation (Not Supported)](https://yunwu.apifox.cn/api-232421915.md):
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [Create Chat Completion (Streaming)](https://yunwu.apifox.cn/api-232421916.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each position.
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [Create Chat Completion (Non-Streaming)](https://yunwu.apifox.cn/api-232421917.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each position.
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [Create Chat Image Recognition (Streaming)](https://yunwu.apifox.cn/api-232421918.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [Create Chat Image Recognition (Streaming) best64](https://yunwu.apifox.cn/api-250702787.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [Create Chat Image Recognition (Non-Stream)](https://yunwu.apifox.cn/api-232421919.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [Create Chat Authoring Graph (Non-Stream)](https://yunwu.apifox.cn/api-277775729.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [Official Function calling](https://yunwu.apifox.cn/api-232421920.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [Official N Test](https://yunwu.apifox.cn/api-232421921.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [List Model](https://yunwu.apifox.cn/api-232421922.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [Create Chat Function Call](https://yunwu.apifox.cn/api-232421923.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [Create Structured Output](https://yunwu.apifox.cn/api-232421924.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [Controlling the effort of the inference model](https://yunwu.apifox.cn/api-285664411.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [Create Chat Completion qwen-mt-turbo](https://yunwu.apifox.cn/api-327199929.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [Create Chat Completion Deepseek v3.1 Thinking Level (Streaming)](https://yunwu.apifox.cn/api-339969197.md):
+- Chat > ​​ChatGPT Interface > ChatGPT Chat [deepseek-ocr recognition](https://yunwu.apifox.cn/api-368684149.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​ChatGPT Interface > ChatGPT Auto-Completions [Created](https://yunwu.apifox.cn/api-232421925.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​ChatGPT Interface > ChatGPT Embeddings [Create Embedding](https://yunwu.apifox.cn/api-232421926.md): Gets a vector representation of a given input, which machine learning models and algorithms can easily use.
+- Chat > ​​ChatGpt API > Web Search [web search](https://yunwu.apifox.cn/api-306423418.md): Reference documentation: https://platform.openai.com/docs/api-reference/chat/create
+- Chat > ​​Anthropic Claude Interface > Native Format [Create Chat Completion (Streaming)](https://yunwu.apifox.cn/api-264600675.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each position.
+- Chat > ​​Anthropic Claude Interface > Native Format [Creating Function Calls (Streaming)](https://yunwu.apifox.cn/api-322723979.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​Anthropic Claude Interface > Native Format [Create Formatted Output](https://yunwu.apifox.cn/api-406138223.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​Anthropic Claude Interface > Native Format [Create Thinking Chat](https://yunwu.apifox.cn/api-323560223.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​Anthropic Claude Interface > Native Format [PDF Support](https://yunwu.apifox.cn/api-364530254.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label for each location.
+- Chat > ​​Anthropic Claude Interface > Native Format [PDF supports base64 format](https://yunwu.apifox.cn/api-369808381.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label for each location.
+- Chat > ​​Anthropic Claude API > Native Format [Network Search](https://yunwu.apifox.cn/api-409263452.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​Anthropic Claude Interface > chat-compatible format [Create Thinking Chat](https://yunwu.apifox.cn/api-324157379.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​Anthropic Claude Interface > Chat Compatible Format [Create Chat Completion (Streaming)](https://yunwu.apifox.cn/api-232421927.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each position.
+- Chat > ​​Anthropic Claude Interface > Chat Compatible Format [Create Chat Completion (Non-Streaming)](https://yunwu.apifox.cn/api-232421928.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each position.
+- Chat > ​​Anthropic Claude Interface > Chat Compatible Format [Create Chat Image Recognition (Streaming)](https://yunwu.apifox.cn/api-232421929.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​Anthropic Claude Interface > Chat Compatible Format [Creating Chat Image Recognition (Non-Stream)](https://yunwu.apifox.cn/api-232421930.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​Google Gemini API > Native Format Text Generation (https://yunwu.apifox.cn/api-305048984.md): Official documentation: https://ai.google.dev/gemini-api/docs/text-generation?hl=zh-cn#multi-turn-conversations
+- Chat > ​​Google Gemini API > Native Format [Text Generation - Stream](https://yunwu.apifox.cn/api-318990658.md): Official documentation: https://ai.google.dev/gemini-api/docs/text-generation?hl=zh-cn#multi-turn-conversations
+- Chat > ​​Google Gemini API > Native Format [Text Generation + Thought Stream](https://yunwu.apifox.cn/api-338836071.md): Official Documentation: https://ai.google.dev/gemini-api/docs/text-generation?hl=zh-cn#multi-turn-conversations
+- Chat > ​​Google Gemini API > Native Format [Image Generation](https://yunwu.apifox.cn/api-305486200.md): Official Documentation: https://ai.google.dev/gemini-api/docs/image-generation?hl=zh-cn
+- Chat > ​​Google Gemini API > Native Format [Image Generation: gemini-2.5-flash-image](https://yunwu.apifox.cn/api-341597142.md): Official Documentation: https://ai.google.dev/gemini-api/docs/image-generation?hl=zh-cn#gemini-image-editing
+- Chat > ​​Google Gemini API > Native Format [Image Generation: Gemini-2.5 Flash Image with Aspect Ratio Control](https://yunwu.apifox.cn/api-358030171.md): Official Documentation: https://ai.google.dev/gemini-api/docs/image-generation?hl=zh-cn#gemini-image-editing
+- Chat > ​​Google Gemini API > Native Format [Image generation: gemini-3-pro-image-preview, controlling aspect ratio and clarity](https://yunwu.apifox.cn/api-379838953.md): Official documentation: https://ai.google.dev/gemini-api/docs/image-generation?hl=zh-cn#gemini-image-editing
+- Chat > ​​Google Gemini API > Native Image Editing (https://yunwu.apifox.cn/api-305488471.md): Official documentation: https://ai.google.dev/gemini-api/docs/image-generation?hl=zh-cn#gemini-image-editing
+- Chat > ​​Google Gemini API > Native Format [Image Understanding](https://yunwu.apifox.cn/api-309476374.md): Official Documentation: https://ai.google.dev/gemini-api/docs/image-understanding?hl=zh-cn
+- Chat > ​​Google Gemini API > Native Format [Formatted Output](https://yunwu.apifox.cn/api-309478321.md): Official Documentation: https://ai.google.dev/gemini-api/docs/structured-output?hl=zh-cn
+- Chat > ​​Google Gemini API > Native Format [Function Call](https://yunwu.apifox.cn/api-324970608.md): Official Documentation: https://ai.google.dev/gemini-api/docs/function-calling?hl=zh-cn&example=meeting
+- Chat > ​​Google Gemini API > Native Format [Document Understanding](https://yunwu.apifox.cn/api-309479027.md): Official Documentation: https://ai.google.dev/gemini-api/docs/document-processing?hl=zh-cn
+- Chat > ​​Google Gemini API > Native Format [URL context [native format]](https://yunwu.apifox.cn/api-343923781.md): Official documentation: https://ai.google.dev/gemini-api/docs/document-processing?hl=zh-cn
+- Chat > ​​Google Gemini API > Native Format [Code Execution](https://yunwu.apifox.cn/api-350445624.md): Official Documentation: https://ai.google.dev/gemini-api/docs/document-processing?hl=zh-cn
+- Chat > ​​Google Gemini API > Native Format [Google Search](https://yunwu.apifox.cn/api-350446379.md): Official Documentation: https://ai.google.dev/gemini-api/docs/document-processing?hl=zh-cn
+- Chat > ​​Google Gemini API > Native Format [Video Understanding](https://yunwu.apifox.cn/api-309482709.md): Official Documentation: https://ai.google.dev/gemini-api/docs/video-understanding?hl=zh-cn
+- Chat > ​​Google Gemini API > Native Format [URL context](https://yunwu.apifox.cn/api-309485929.md): Official Documentation: https://ai.google.dev/gemini-api/docs/url-context?hl=zh-cn
+- Chat > ​​Google Gemini API > Native Format [Audio Understanding](https://yunwu.apifox.cn/api-357873179.md): Official Documentation: https://ai.google.dev/gemini-api/docs/url-context?hl=zh-cn
+- Chat > ​​Google Gemini API > Native Format [Embeddings](https://yunwu.apifox.cn/api-371226831.md): Official Documentation: https://ai.google.dev/gemini-api/docs/text-generation?hl=zh-cn#multi-turn-conversations
+- Chat > ​​Google Gemini API > Native Format [TTS Text-to-Speech](https://yunwu.apifox.cn/api-412889020.md): Official Documentation: https://ai.google.dev/gemini-api/docs/image-generation?hl=zh-cn#gemini-image-editing
+- Chat > ​​Google Gemini API > Native Format [Text Generation gemini-3-pro-preview:generateContent](https://yunwu.apifox.cn/api-381390942.md): Official Documentation: https://ai.google.dev/gemini-api/docs/text-generation?hl=zh-cn#multi-turn-conversations
+- Chat > ​​Google Gemini API > Native Format [Imagen Image Generation](https://yunwu.apifox.cn/api-413581329.md): Official Documentation: https://ai.google.dev/gemini-api/docs/document-processing?hl=zh-cn
+- Chat > ​​Google Gemini Interface > chat compatible format [gemini image creation interface [chat compatible format]](https://yunwu.apifox.cn/api-275101024.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​Google Gemini API > chat compatible format [Chat API [chat compatible format]](https://yunwu.apifox.cn/api-232421948.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​Google Gemini Interface > Chat Compatible Format [Chat Interface - Thoughts 1 [Chat Compatible Format]](https://yunwu.apifox.cn/api-338855924.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​Google Gemini Interface > Chat Compatible Format [Chat Interface - Thoughts 2 [Chat Compatible Format]](https://yunwu.apifox.cn/api-338865643.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat > ​​Google Gemini API > Chat-compatible format [Image recognition API [Chat-compatible format]](https://yunwu.apifox.cn/api-232421949.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label for each location.
+- Chat > ​​Google Gemini Interface > Chat-compatible format [Chat + file reading interface [Chat-compatible format]](https://yunwu.apifox.cn/api-306131089.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker for each location.
+- Chat (Responses) [Create Model Response](https://yunwu.apifox.cn/api-302363809.md): https://platform.openai.com/docs/api-reference/responses/create
+- Chat (Responses) [Creating a Function Call](https://yunwu.apifox.cn/api-339209197.md): https://platform.openai.com/docs/api-reference/responses/create
+- Chat (Responses) [Create Model Response (Streaming Return)](https://yunwu.apifox.cn/api-326879562.md): https://platform.openai.com/docs/api-reference/responses/create
+- Chat (Responses) [Creating Model Responses (Controlling Thought Length)](https://yunwu.apifox.cn/api-326879727.md): https://platform.openai.com/docs/api-reference/responses/create
+- Chat (Responses) [Create Web Search](https://yunwu.apifox.cn/api-319963022.md): https://platform.openai.com/docs/api-reference/responses/create
+- Chat (Responses) [Create Model Response GPT-5 Enable Thinking](https://yunwu.apifox.cn/api-333400155.md): https://platform.openai.com/docs/api-reference/responses/create
+- Chat (Responses) [Creating Function Calls Copy](https://yunwu.apifox.cn/api-349845753.md): https://platform.openai.com/docs/api-reference/responses/create
+- Painting Model > Midjourney [Upload Image](https://yunwu.apifox.cn/api-277975070.md): Official Documentation: https://docs.midjourney.com/hc/en-us/articles/33329380893325-Managing-Image-Uploads
+- Painting Models > Midjourney [Submit Imagine Task](https://yunwu.apifox.cn/api-232421938.md): Official Documentation: https://docs.midjourney.com/hc/en-us/articles/32023408776205-Prompt-Basics
+- Painting Model > Midjourney [Query Task Status by Task ID](https://yunwu.apifox.cn/api-232421939.md):
+- Painting Model > Midjourney [Search Tasks by ID List](https://yunwu.apifox.cn/api-232421940.md):
+- Painting Model > Midjourney [Get the seed for the task image](https://yunwu.apifox.cn/api-232421941.md):
+- Painting Model > Midjourney [Execute Action](https://yunwu.apifox.cn/api-232421942.md): Official Documentation: https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers
+- Painting Models > Midjourney [Submit Blend Task](https://yunwu.apifox.cn/api-232421943.md): Official Documentation: https://docs.midjourney.com/hc/en-us/articles/32635189884557-Blend-Images-on-Discord
+- Painting Models > Midjourney [Submit Describe Task](https://yunwu.apifox.cn/api-232421944.md): Official Documentation: https://docs.midjourney.com/hc/en-us/articles/32497889043981-Describe
+- Painting Model > Midjourney [Submit Modal](https://yunwu.apifox.cn/api-232421946.md):
+- Painting Model > Ideogram [Generate 3.0 (Text-based Image) Generate ](https://yunwu.apifox.cn/api-295835676.md): Uses the Ideogram 3.0 model to synchronously generate images based on given prompts and optional parameters.
+- Painting Model > Ideogram [Generate 3.0 (Image Editing)](https://yunwu.apifox.cn/api-295871433.md): Uses the Ideogram 3.0 model to synchronously generate images based on given prompts and optional parameters.
+- Painting Model > Ideogram [Generate 3.0 (Image Remix)](https://yunwu.apifox.cn/api-295904276.md): Uses the Ideogram 3.0 model to synchronously generate images based on given prompts and optional parameters.
+- Painting Model > Ideogram [Generate 3.0 (Image Reframe)](https://yunwu.apifox.cn/api-295903393.md): Uses the Ideogram 3.0 model to synchronously generate images based on given prompts and optional parameters.
+- Painting Model > Ideogram [Generate 3.0 (Replace Background)](https://yunwu.apifox.cn/api-295906880.md): Uses the Ideogram 3.0 model to synchronously generate images based on given prompts and optional parameters.
+- Painting Model > Ideogram [ideogram（文生图）](https://yunwu.apifox.cn/api-244680463.md): Generates images synchronously based on a given prompt and optional parameters.
+- Painting Model > Ideogram [Remix](https://yunwu.apifox.cn/api-244685410.md): Official Documentation: https://developer.ideogram.ai/api-reference/api-reference/remix
+- Painting Model > Ideogram [Upscale](https://yunwu.apifox.cn/api-244685729.md): Official Documentation: https://developer.ideogram.ai/api-reference/api-reference/upscale
+- Drawing Model > Ideogram [Describe](https://yunwu.apifox.cn/api-244685783.md): Official Documentation: https://developer.ideogram.ai/api-reference/api-reference/describe
+- Painting Models > GPT Image Series [Create gpt-image-1](https://yunwu.apifox.cn/api-290549047.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Painting Models > GPT Image Series [edit gpt-image-1](https://yunwu.apifox.cn/api-290558485.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Painting Models > GPT Image Series [Mask gpt-image-1](https://yunwu.apifox.cn/api-313708616.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker at each location.
+- Painting Models > GPT Image Series [Create gpt-image-1.5](https://yunwu.apifox.cn/api-392793165.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Painting Models > GPT Image Series [edit gpt-image-1.5](https://yunwu.apifox.cn/api-393805052.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Painting Models > GPT Image Series [Mask gpt-image-1.5](https://yunwu.apifox.cn/api-393805053.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Painting Model > DALL·E 3 [Create DALL·E 3](https://yunwu.apifox.cn/api-326547908.md): [Images](https://platform.openai.com/docs/api-reference/images)
+- Painting Model > FLUX Series > GPT Compatible Format [Flux Creation (OpenAI dall-e-3 Format)](https://yunwu.apifox.cn/api-232421932.md): [Image](https://platform.openai.com/docs/api-reference/images)
+- Painting Model > FLUX Series > gpt Compatible Format [Flux Edit (OpenAI dall-e-3 format)](https://yunwu.apifox.cn/api-306816728.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Painting Models > FLUX Series > Replicate Official Format [Creating a Task black-forest-labs/flux-kontext-dev](https://yunwu.apifox.cn/api-321167741.md): Official Documentation: https://replicate.com/black-forest-labs/flux-kontext-dev
+- Painting Models > FLUX Series > Replicate Official Format [Search Task](https://yunwu.apifox.cn/api-321172927.md): Official Documentation: https://replicate.com/black-forest-labs/flux-kontext-max
+- Painting Model > Doubao Series [doubao-seedream-3-0-t2i-250415](https://yunwu.apifox.cn/api-328094105.md): Given a prompt and/or an input image, the model will generate a new image.
+- Painting Model > Doubao Series [doubao-seededit-3-0-i2i-250628](https://yunwu.apifox.cn/api-328094825.md): Given a prompt and/or an input image, the model will generate a new image.
+- Painting Model > Doubao Series [doubao-seedream-4-0-250828-文生图](https://yunwu.apifox.cn/api-347960869.md): Given a prompt and/or an input image, the model will generate a new image.
+- Painting Model > Doubao Series [doubao-seedream-4-0-250828-raw image](https://yunwu.apifox.cn/api-347961511.md): Given a prompt and/or an input image, the model will generate a new image.
+- Painting Model > Doubao Series [doubao-seedream-4-0-250828-Multiple Raw Images](https://yunwu.apifox.cn/api-349230272.md): Given a prompt and/or an input image, the model will generate a new image.
+- Painting Model > Doubao Series [doubao-seedream-4-5-251128 Text-based Image (Plain Text Input, Single Image Output)](https://yunwu.apifox.cn/api-385964102.md): Given a prompt and/or an input image, the model will generate a new image.
+- Painting Model > Doubao Series [doubao-seedream-4-5-251128 Image and Text Generation (Single Image Input, Single Image Output)](https://yunwu.apifox.cn/api-386006883.md): Given a prompt and/or an input image, the model will generate a new image.
+- Painting Model > Doubao Series [doubao-seedream-4-5-251128 Multi-Image Fusion (Multiple Image Input, Single Image Output)](https://yunwu.apifox.cn/api-386006895.md): Given a prompt and/or an input image, the model will generate a new image.
+- Painting Model > Doubao Series [doubao-seedream-4-5-251128 Image Output (Multiple Image Output)](https://yunwu.apifox.cn/api-386006896.md): Given a prompt and/or an input image, the model will generate a new image.
+- Painting Model > Doubao Series [doubao-seedream-4-5-251128 Single Image Generates Group Image](https://yunwu.apifox.cn/api-386006897.md): Given a prompt and/or an input image, the model will generate a new image.
+- Painting Model > Doubao Series [doubao-seedream-4-5-251128 Multi-reference Image Generator](https://yunwu.apifox.cn/api-386006898.md): Given a prompt and/or an input image, the model will generate a new image.
+- Painting Model > Fal.ai Platform [Get Request Result](https://yunwu.apifox.cn/api-343816375.md):
+- Painting Models > Fal.ai Platform [/fal-ai/nano-banana Textual Image](https://yunwu.apifox.cn/api-341948426.md): Official Documentation: https://fal.ai/models/fal-ai/nano-banana
+- Painting Models > Fal.ai Platform [/fal-ai/nano-banana/edit Image Editing](https://yunwu.apifox.cn/api-341952136.md): Official Documentation: https://fal.ai/models/fal-ai/nano-banana/edit
+- Painting Model > Tencent AIGC Raw Image [Get Request Result](https://yunwu.apifox.cn/api-398427540.md):
+- Painting Model > Tencent AIGC Raw Image [Creating Task](https://yunwu.apifox.cn/api-398427541.md): Official Documentation: https://cloud.tencent.com/document/product/266/126240
+- Painting Model > Qwen Series [qwen-image-max](https://yunwu.apifox.cn/api-402380063.md):
+- Painting Model > Qwen Series [z-image-turbo](https://yunwu.apifox.cn/api-402387320.md):
+- Painting Model > Qwen Series [qwen-image-edit-2509](https://yunwu.apifox.cn/api-354490509.md): Given a prompt and/or an input image, the model will generate a new image.
+- Video Model > VEO Video Generation > Unified Video Format [Create Video](https://yunwu.apifox.cn/api-311044999.md):
+- Video Model > VEO Video Generation > Unified Video Format [Create Video with Images](https://yunwu.apifox.cn/api-311083745.md):
+- Video Models > VEO Video Generation > Unified Video Format [Query Task](https://yunwu.apifox.cn/api-311081757.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Video Model > VEO Video Generation > Unified Video Format [Creating a Video (Reference Image)](https://yunwu.apifox.cn/api-371329190.md):
+- Video Models > VEO Video Generation > OpenAI Video Formats [Create Videos with Images using OpenAI](https://yunwu.apifox.cn/api-370109881.md):
+- Video Models > VEO Video Generation > OpenAI Video Formats [OpenAI Query Task](https://yunwu.apifox.cn/api-370109885.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Video Models > VEO Video Generation > OpenAI Video Formats [Download video from OpenAI](https://yunwu.apifox.cn/api-370109886.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Video Models > Luma Video Generation > Official API Format [Submit Video Generation Task](https://yunwu.apifox.cn/api-247110323.md): Official Documentation: https://docs.lumalabs.ai/docs/video-generation
+- Video Models > Luma Video Generation > Official API Format [Extended Video](https://yunwu.apifox.cn/api-247123616.md): Official Documentation: https://docs.lumalabs.ai/docs/video-generation
+- Video Model > Luma Video Generation > Query Task [Query Single Task](https://yunwu.apifox.cn/api-247123648.md): "state": "completed" Enumerated values: "pending", "processing", "completed", "failed"
+- Video Model > Luma Video Generation > Query Task [Batch Retrieve Tasks](https://yunwu.apifox.cn/api-247123658.md): "state": "completed" Enumerated values: "pending", "processing", "completed", "failed"
+- Video Model > Runway Video Generation [Submit Video Generation Task](https://yunwu.apifox.cn/api-247132317.md): Official Documentation: https://docs.dev.runwayml.com/api/#tag/Start-generating/paths/~1v1~1image_to_video/post
+- Video Model > Runway Video Generation [Query Video Tasks (Free)](https://yunwu.apifox.cn/api-247132320.md):
+- Video Model > Conch Video Generation [Submit Video Generation Task](https://yunwu.apifox.cn/api-327360870.md): Official Documentation: https://www.minimax.io/platform/document/Model%3Fkey=684261f14c5738213294faa7?key=66d1439376e52fcee2853049&document=video_generation
+- Video Model > Conch Video Generation [Video Task Status Query](https://yunwu.apifox.cn/api-327360871.md):
+- Video Model > Conch Video Generation [Image-Based Video](https://yunwu.apifox.cn/api-371508313.md): Official Documentation: https://www.minimax.io/platform/document/Model%3Fkey=684261f14c5738213294faa7?key=66d1439376e52fcee2853049&document=video_generation
+- Video Model > Conch Video Generation [First and Last Frame Video](https://yunwu.apifox.cn/api-371508337.md): Official Documentation: https://www.minimax.io/platform/document/Model%3Fkey=684261f14c5738213294faa7?key=66d1439376e52fcee2853049&document=video_generation
+- Video Model > Doubao Video Generation [Wensheng Video Example](https://yunwu.apifox.cn/api-350878596.md): Official Documentation: https://www.volcengine.com/docs/82379/1520757
+- Video Model > Doubao Video Generation [Image-Based Video - First Frame](https://yunwu.apifox.cn/api-350891452.md): Official Documentation: https://www.volcengine.com/docs/82379/1520757
+- Video Model > Bean Bun Video Generation [seedance-lite-first and last frames](https://yunwu.apifox.cn/api-350896578.md):
+- Video Model > Doubao Video Generation [Graphic Video - Base64 Encoding](https://yunwu.apifox.cn/api-351548550.md): Official Documentation: https://www.volcengine.com/docs/82379/1520757
+- Video Model > Doubao Video Generation [seedance-lite-reference image](https://yunwu.apifox.cn/api-351549702.md): Official Documentation: https://www.volcengine.com/docs/82379/1520757
+- Video Model > Doubao Video Generation [Query Single Task](https://yunwu.apifox.cn/api-350883332.md):
+- Video Model > Doubao Video Generation [Query Video Generation Task List - Default](https://yunwu.apifox.cn/api-351558937.md):
+- Video Model > Doubao Video Generation [Query Video Generation Task List - Search Multiple Task IDs](https://yunwu.apifox.cn/api-351560434.md):
+- Video Model > Bean Bun Video Generation [seedance-1-5-pro-first and last frames](https://yunwu.apifox.cn/api-402333878.md):
+- Video Model > Doubao Video Generation [seedance-1-5-pro](https://yunwu.apifox.cn/api-410229637.md):
+- Video Models > Sora Video Generation > Unified Video Format [Query Task](https://yunwu.apifox.cn/api-358068905.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker at each location.
+- Video Model > Sora Video Generation > Unified Video Format [Create Video with Images sora-2](https://yunwu.apifox.cn/api-358068907.md):
+- Video Model > Sora Video Generation > Unified Video Format [Create Video sora-2](https://yunwu.apifox.cn/api-358068995.md):
+- Video Model > Sora Video Generation > Unified Video Format [Creating Videos sora-2-pro](https://yunwu.apifox.cn/api-358742580.md):
+- Video Model > Sora Video Generation > Unified Video Format [Create Video (with Character)](https://yunwu.apifox.cn/api-369666077.md):
+- Video Model > Sora Video Generation > Chat Format [Create Video](https://yunwu.apifox.cn/api-357808481.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker at each location.
+- Video Model > Sora Video Generation > Chat Format [Create Video with Images](https://yunwu.apifox.cn/api-371750381.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker at each location.
+- Video Model > Sora Video Generation > Chat Format [Continuous Modification to Generate Video](https://yunwu.apifox.cn/api-360200157.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative marker at each location.
+- Video Models > Sora Video Generation > OpenAI Official Video Format [Create Video with Images using OpenAI](https://yunwu.apifox.cn/api-363028872.md):
+- Video Models > Sora Video Generation > OpenAI Official Video Formats [Creating Videos Using Storyboards](https://yunwu.apifox.cn/api-385627774.md):
+- Video Models > Sora Video Generation > OpenAI Official Video Formats [Create Video with OpenAI, Private Image Mode](https://yunwu.apifox.cn/api-367102521.md):
+- Video Models > Sora Video Generation > OpenAI Official Video Formats [Create Video with Character using OpenAI](https://yunwu.apifox.cn/api-371984249.md):
+- Video Models > Sora Video Generation > OpenAI Official Video Formats [OpenAI Video Editing](https://yunwu.apifox.cn/api-363040669.md):
+- Video Models > Sora Video Generation > OpenAI Official Video Format [OpenAI Download Video](https://yunwu.apifox.cn/api-363824206.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Video Models > Sora Video Generation > OpenAI Official Video Format [OpenAI Query Task](https://yunwu.apifox.cn/api-363309789.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Video Model > Sora Video Generation [Create Role](https://yunwu.apifox.cn/api-376104874.md):
+- Video Model > Grok Video Generation > Unified Video Format [Create Video](https://yunwu.apifox.cn/api-385288046.md):
+- Video Models > Grok Video Generation > Unified Video Format [Query Task](https://yunwu.apifox.cn/api-385288050.md): Given a hint, the model will return the completion of one or more predictions, and can also return the probability of the alternative label at each location.
+- Video Model > Generalized Video Generation [Generate Video](https://yunwu.apifox.cn/api-359496147.md):
+- Video Model > Generalized and Varied Video Generation [Video Query](https://yunwu.apifox.cn/api-359507346.md):
+- Video Model > Tencent AIGC Video Generation [Create Task](https://yunwu.apifox.cn/api-399032083.md): Official Documentation: https://cloud.tencent.com/document/product/266/126240
+- Video Model > Tencent AIGC Video Generation [Get Request Result](https://yunwu.apifox.cn/api-399032082.md):
+- GPTs related [GPTs dialogue](https://yunwu.apifox.cn/api-232421952.md): The model name format is: gpt-4-gizmo-*, the system will automatically recognize it.
+- System API [Get Token List](https://yunwu.apifox.cn/api-278499776.md):
+- System API [Add Token](https://yunwu.apifox.cn/api-278500390.md):
+- System API [Get Token Support Model](https://yunwu.apifox.cn/api-301363879.md):
+- System API [Get Account Information](https://yunwu.apifox.cn/api-303316036.md):
+- System API [Modify Token](https://yunwu.apifox.cn/api-356116138.md):
+- System API [Search Token](https://yunwu.apifox.cn/api-356116296.md):
+- System API [Delete Token](https://yunwu.apifox.cn/api-356116177.md):
+- Wensheng Music Suno > Task Submission [Generate Song (Inspiration Mode)](https://yunwu.apifox.cn/api-248983692.md):
+- Wensheng Music Suno > Task Submission [Generate Song (Custom Mode)](https://yunwu.apifox.cn/api-305049181.md):
+- Wensheng Music Suno > Task Submission [Generate Song (Continuation Mode)](https://yunwu.apifox.cn/api-305049317.md):
+- Wensheng Music Suno > Task Submission [Generate Song (Singer Style)](https://yunwu.apifox.cn/api-305049365.md): # Integration Steps
+- Suno Music > Task Submission [Generate Song (Upload Song for Secondary Creation)](https://yunwu.apifox.cn/api-305049403.md):
+- Wensheng Music Suno > Task Submission [Generate Song (Song Combination)](https://yunwu.apifox.cn/api-305049407.md):
+- Wensheng Music Suno > Task Submission [Generate Lyrics](https://yunwu.apifox.cn/api-248983798.md):
+- Suno Music > Task Submission [Song Combination](https://yunwu.apifox.cn/api-248984121.md):
+- Wensheng Music Suno > Task Submission [Report Upload Complete](https://yunwu.apifox.cn/api-402408952.md): ┌───────────────────────────────────────────────────────────┐
+- Wensheng Music Suno > Task Submission [Check Upload Processing Status](https://yunwu.apifox.cn/api-402408975.md): ┌───────────────────────────────────────────────────────────┐
+- Suno Music > Task Submission [Initialize Audio Files](https://yunwu.apifox.cn/api-402411275.md): ┌───────────────────────────────────────────────────────────┐
+- Wensheng Music Suno > Task Submission [Request Upload Authorization](https://yunwu.apifox.cn/api-402407540.md): ┌───────────────────────────────────────────────────────────┐
+- Wensheng Music Suno > Task Submission [S3 Upload Example](https://yunwu.apifox.cn/api-402412563.md):
+- Wensheng Music Suno > Task Submission [Scenario 1: Inspiration Mode](https://yunwu.apifox.cn/api-408841413.md):
+- Wensheng Music Suno > Task Submission [Scenario 2: Custom.Lyrics/Song Title](https://yunwu.apifox.cn/api-408842497.md):
+- Suno Music > Task Submission [Scenario 3: Pure Music.Custom](https://yunwu.apifox.cn/api-408850611.md):
+- Wensheng Music Suno > Query Interface [Batch Retrieval Tasks](https://yunwu.apifox.cn/api-248984125.md):
+- Wensheng Music Suno > Query Interface [Query Single Task](https://yunwu.apifox.cn/api-248984180.md):
+- Wensheng Music Suno > Query API [Get WAV](https://yunwu.apifox.cn/api-357249347.md):
+- Wensheng Music Suno > Query API [Timing: Lyrics, Audio Timeline](https://yunwu.apifox.cn/api-408281974.md):
+- Wensheng Music Suno > Query API [Get Scene Details](https://yunwu.apifox.cn/api-408764477.md):
+- Rerank model [Rerank](https://yunwu.apifox.cn/api-319966930.md): Given a hint, this model will return the completion of one or more predictions, and can also return the probability of the alternative label at each position.
+- Kling Platform > Wensheng Video [Wensheng Video](https://yunwu.apifox.cn/api-386060323.md):
+- Kling Platform > Wensheng Video [Query Task (Single)](https://yunwu.apifox.cn/api-386109649.md):
+- Kling Platform > Image-based Video [Image-based Video](https://yunwu.apifox.cn/api-386132041.md):
+- Kling Platform > Image-Based Video [Query Task (Single)](https://yunwu.apifox.cn/api-386175789.md):
+- Kling Platform > Omni-Video [Omni-Video](https://yunwu.apifox.cn/api-393296337.md):
+- Kling Platform > Omni-Video [Query Task (Single)](https://yunwu.apifox.cn/api-393415626.md):
+- Kling Platform > Omni-Image [Omni-Image](https://yunwu.apifox.cn/api-393418401.md):
+- Kling Platform > Omni-Image [Query Task (Single)](https://yunwu.apifox.cn/api-393436408.md):
+- Kling Platform > Multi-Image Reference Video [Multi-Image Reference Video](https://yunwu.apifox.cn/api-386179083.md):
+- Kling Platform > Multi-Image Reference Video [Query Task (Single)](https://yunwu.apifox.cn/api-386188400.md):
+- Kling Platform > Multimodal Video Editing [Initialize Video to be Edited](https://yunwu.apifox.cn/api-386191600.md):
+- Kling Platform > Multimodal Video Editing [Add Video Selection Area](https://yunwu.apifox.cn/api-386198862.md):
+- Kling Platform > Multimodal Video Editing [Video Removal and Selection](https://yunwu.apifox.cn/api-386224260.md):
+- Kling Platform > Multimodal Video Editing [Preview Selected Video](https://yunwu.apifox.cn/api-389935176.md):
+- Kling Platform > Multimodal Video Editing [Multimodal Video](https://yunwu.apifox.cn/api-389936303.md):
+- Kling Platform > Multimodal Video Editing [Query Task (Single)](https://yunwu.apifox.cn/api-389951931.md):
+- Kling Platform > Video Extension [Video Extension](https://yunwu.apifox.cn/api-386231144.md):
+- Kling Platform > Video Extension [Query Task (Single)](https://yunwu.apifox.cn/api-386232745.md):
+- Kling Platform > Video Effects [Video Effects](https://yunwu.apifox.cn/api-386233275.md):
+- Kling Platform > Video Effects [Query Task (Single)](https://yunwu.apifox.cn/api-386243241.md):
+- Kling Platform > Image Generation [Image Generation](https://yunwu.apifox.cn/api-386036840.md):
+- Kling Platform > Image Generation [Query Task (Single)](https://yunwu.apifox.cn/api-386262319.md):
+- Kling Platform > Multiple Reference Images [Multiple Reference Images](https://yunwu.apifox.cn/api-386264560.md):
+- Kling Platform > Multi-Image Reference Raw Image [Query Task (Single)](https://yunwu.apifox.cn/api-386276045.md):
+- Kling Platform > Expand Image [Expand Image](https://yunwu.apifox.cn/api-386284418.md):
+- Kling Platform > Expand Map [Query Task (Single)](https://yunwu.apifox.cn/api-386301897.md):
+- Kling Platform > Image Recognition [Image Recognition](https://yunwu.apifox.cn/api-386307948.md):
+- Kling Platform > Digital Human [Digital Human](https://yunwu.apifox.cn/api-386315766.md):
+- Kling Platform > Digital Human [Query Task (Single)](https://yunwu.apifox.cn/api-386332700.md):
+- Kling Platform > Vincent Sound Effects [Vincent Sound Effects](https://yunwu.apifox.cn/api-386322140.md):
+- Kling Platform > Wensheng Sound Effects [Query Task (Single)](https://yunwu.apifox.cn/api-386327064.md):
+- Kling Platform > Video Audio Generation [Video Audio Generation](https://yunwu.apifox.cn/api-386338588.md):
+- Kling Platform > Video Audio Generation [Query Task (Single)](https://yunwu.apifox.cn/api-386342547.md):
+- Kling Platform > Speech Synthesis [Speech Synthesis](https://yunwu.apifox.cn/api-386347843.md):
+- Kling Platform > Virtual Try-on [Virtual Try-on](https://yunwu.apifox.cn/api-386354700.md):
+- Kling Platform > Virtual Try-on [Query Task (Single)](https://yunwu.apifox.cn/api-391306292.md):
+- Kling Platform > Lip-syncing [Face Recognition](https://yunwu.apifox.cn/api-386389655.md):
+- Kling Platform > Lip-syncing [Lip-syncing](https://yunwu.apifox.cn/api-386403357.md):
+- Kling Platform > Lip-syncing [Query Task (Single)](https://yunwu.apifox.cn/api-386413409.md):
+- Kling Platform > Custom Tone [Custom Tone](https://yunwu.apifox.cn/api-393212449.md):
+- Kling Platform > Custom Tones [Query Custom Tones (Single)](https://yunwu.apifox.cn/api-393228289.md):
+- Kling Platform > Custom Tones [Query Official Tones](https://yunwu.apifox.cn/api-405419408.md):
+- Kling Platform > Custom Tones [Delete Custom Tone](https://yunwu.apifox.cn/api-405420641.md):
+- Kling Platform > Motion Control [Motion Control](https://yunwu.apifox.cn/api-398754751.md):
+- Kling Platform > Motion Control [Query Task (Single)](https://yunwu.apifox.cn/api-398908063.md):
+- Kling Platform > Main Body [Main Body](https://yunwu.apifox.cn/api-398950420.md):
+- Replicate aggregation platform [query task](https://yunwu.apifox.cn/api-326395247.md): Official documentation: https://replicate.com/black-forest-labs/flux-kontext-max
+- Replicate aggregation platform [Creating a task - via the model version (predictions)](https://yunwu.apifox.cn/api-330236623.md): Version models support the following
+- Replicate aggregation platform [Creating tasks stability-ai/stable-diffusion](https://yunwu.apifox.cn/api-326398523.md): Official documentation: https://replicate.com/stability-ai/stable-diffusion
+- Replicate aggregation platform [Create task stability-ai/sdxl](https://yunwu.apifox.cn/api-326401454.md): Official documentation: https://replicate.com/stability-ai/sdxl
+- Replicate aggregation platform [Creating tasks stability-ai/stable-diffusion-inpainting](https://yunwu.apifox.cn/api-326402431.md): Official documentation: https://replicate.com/stability-ai/stable-diffusion-inpainting
+- Replicate aggregation platform [Creating tasks stability-ai/stable-diffusion-img2img](https://yunwu.apifox.cn/api-326403473.md): Official documentation: https://replicate.com/stability-ai/stable-diffusion-img2img
+- Replicate aggregation platform [Creating tasks lucataco/flux-schnell-lora](https://yunwu.apifox.cn/api-326436155.md): Official documentation: https://replicate.com/lucataco/flux-schnell-lora
+- Replicate aggregation platform [Creating tasks lucataco/flux-dev-lora](https://yunwu.apifox.cn/api-326474696.md): Official documentation: https://replicate.com/lucataco/flux-dev-lora
+- Replicate aggregation platform [Creating tasks andreasjansson/stable-diffusion-animation](https://yunwu.apifox.cn/api-326479811.md): Official documentation: https://replicate.com/andreasjansson/stable-diffusion-animation
+- Replicate aggregation platform [Creating tasks sujaykhandekar/object-removal](https://yunwu.apifox.cn/api-326484628.md): Official documentation: https://replicate.com/sujaykhandekar/object-removal
+- Replicate aggregation platform [Creating tasks cjwbw/rembg](https://yunwu.apifox.cn/api-326486131.md): Official documentation: https://replicate.com/cjwbw/rembg
+- Replicate aggregation platform [Creating tasks lucataco/animate-diff](https://yunwu.apifox.cn/api-326482871.md): Official documentation: https://replicate.com/lucataco/animate-diff
+- Replicate aggregation platform [Create task ideogram-ai/ideogram-v2-turbo](https://yunwu.apifox.cn/api-326492658.md): Official documentation: https://replicate.com/ideogram-ai/ideogram-v2-turbo
+- Replicate aggregation platform [Creating a task black-forest-labs/flux-kontext-dev](https://yunwu.apifox.cn/api-326395170.md): Official documentation: https://replicate.com/black-forest-labs/flux-kontext-dev
+- Replicate aggregation platform [Creating task minimax/video-01-live](https://yunwu.apifox.cn/api-326486964.md): Official documentation: https://replicate.com/minimax/video-01-live
+- Replicate aggregation platform [Creating task minimax/video-01](https://yunwu.apifox.cn/api-326487974.md): Official documentation: https://replicate.com/minimax/video-01
+- Replicate aggregation platform [creating tasks recraft-ai/recraft-v3](https://yunwu.apifox.cn/api-326489482.md): Official documentation: https://replicate.com/recraft-ai/recraft-v3
+- Replicate aggregation platform [creating quests recraft-ai/recraft-v3-svg](https://yunwu.apifox.cn/api-326491184.md): Official documentation: https://replicate.com/recraft-ai/recraft-v3-svg
+- Replicate aggregation platform [Creating a task: black-forest-labs/flux-1.1-pro-ultra](https://yunwu.apifox.cn/api-326937038.md): Official documentation: https://replicate.com/black-forest-labs/flux-1.1-pro-ultra
+- Replicate aggregation platform [Creating tasks: black-forest-labs/flux-kontext-pro](https://yunwu.apifox.cn/api-326937091.md): Official documentation: https://replicate.com/black-forest-labs/flux-kontext-pro
+- Replicate aggregation platform [Creating a task black-forest-labs/flux-kontext-max](https://yunwu.apifox.cn/api-326937190.md): Official documentation: https://replicate.com/black-forest-labs/flux-kontext-max
+- Replicate aggregation platform [Creating tasks: flux-kontext-apps/multi-image-kontext-max](https://yunwu.apifox.cn/api-327029322.md): Official documentation: https://replicate.com/flux-kontext-apps/multi-image-kontext-max
+- Replicate aggregation platform [Creating tasks: flux-kontext-apps/multi-image-kontext-pro](https://yunwu.apifox.cn/api-327030811.md): Official documentation: https://replicate.com/flux-kontext-apps/multi-image-kontext-pro
+- Replicate aggregation platform [Creating tasks lucataco/remove-bg](https://yunwu.apifox.cn/api-327032732.md): Official documentation: https://replicate.com/lucataco/remove-bg
+- Replicate aggregation platform [Create task riffusion/riffusion](https://yunwu.apifox.cn/api-327035463.md): Official documentation: https://replicate.com/riffusion/riffusion
+- Replicate aggregation platform [Creating a task black-forest-labs/flux-fill-dev](https://yunwu.apifox.cn/api-327042578.md): Official documentation: https://replicate.com/black-forest-labs/flux-fill-dev
+- Replicate aggregation platform [Creating tasks: black-forest-labs/flux-fill-pro](https://yunwu.apifox.cn/api-327043723.md): Official documentation: https://replicate.com/black-forest-labs/flux-fill-pro
+- Replicate aggregation platform [Create task google/imagen-4-fast](https://yunwu.apifox.cn/api-327045600.md): Official documentation: https://replicate.com/google/imagen-4-fast
+- Replicate aggregation platform [Create task google/imagen-4-ultra](https://yunwu.apifox.cn/api-327046619.md): Official documentation: https://replicate.com/google/imagen-4-ultra
+- Replicate aggregation platform [Create task google/imagen-4](https://yunwu.apifox.cn/api-327048219.md): Official documentation: https://replicate.com/google/imagen-4
+- Replicate aggregation platform [Creating a task prunaai/vace-14b](https://yunwu.apifox.cn/api-327049569.md): Official documentation: https://replicate.com/prunaai/vace-14b
+- Replicate aggregation platform [Create task byendance/seedream-4](https://yunwu.apifox.cn/api-356491310.md):
+- Fal-ai Aggregator Platform > falai-veo3 Video Generation[/fal-ai/veo3](https://yunwu.apifox.cn/api-352567449.md): Official documentation address: https://fal.ai/models/fal-ai/veo3
+- Fal-ai Aggregator Platform > falai-veo3 Video Generation [/fal-ai/veo3/fast/image-to-video](https://yunwu.apifox.cn/api-352888771.md): Official documentation address: https://fal.ai/models/fal-ai/veo3/fast/image-to-video
+- Fal-ai Aggregation Platform > falai-veo3 Video Generation[/fal-ai/veo3/fast](https://yunwu.apifox.cn/api-352888996.md): Official documentation address: https://fal.ai/models/fal-ai/veo3/fast
+- Fal-ai Aggregation Platform > falai-veo3 Video Generation [/fal-ai/veo3/requests/{request_id}](https://yunwu.apifox.cn/api-353201595.md):
+- Fal-ai Aggregation Platform > falai-veo3 Video Generation[/fal-ai/veo3/image-to-video](https://yunwu.apifox.cn/api-353201765.md): Official Documentation: https://fal.ai/models/fal-ai/veo3/image-to-video
+- Fal-ai aggregation platform [Get Request Results](https://yunwu.apifox.cn/api-321180242.md):
+- Fal-ai aggregation platform [/fal-ai/flux-1/dev](https://yunwu.apifox.cn/api-326441625.md): Official documentation: https://fal.ai/models/fal-ai/flux-1/dev
+- Fal-ai aggregation platform [/fal-ai/flux-1/dev/image-to-image](https://yunwu.apifox.cn/api-326476432.md): Official documentation: https://fal.ai/models/fal-ai/flux-1/dev/image-to-image
+- Fal-ai aggregation platform [/fal-ai/flux-1/dev/redux](https://yunwu.apifox.cn/api-326481612.md): Official documentation: https://fal.ai/models/fal-ai/flux-1/dev/redux
+- Fal-ai aggregation platform [/fal-ai/flux-1/schnell/redux](https://yunwu.apifox.cn/api-326483575.md): Official documentation: https://fal.ai/models/fal-ai/flux-1/schnell/redux
+- Fal-ai aggregation platform [/fal-ai/flux-pro/kontext](https://yunwu.apifox.cn/api-326486293.md): Official documentation: https://fal.ai/models/fal-ai/flux-pro/kontext
+- Fal-ai aggregation platform [/fal-ai/flux-pro/kontext/text-to-image](https://yunwu.apifox.cn/api-326487979.md): Official documentation: https://fal.ai/models/fal-ai/flux-pro/kontext/text-to-image
+- Fal-ai aggregation platform [/fal-ai/flux-pro/kontext/max](https://yunwu.apifox.cn/api-326492402.md): Official documentation: https://fal.ai/models/fal-ai/flux-pro/kontext/max
+- Fal-ai aggregation platform [/fal-ai/flux-pro/kontext/max/multi](https://yunwu.apifox.cn/api-321180443.md): Official documentation: https://fal.ai/models/fal-ai/flux-pro/kontext/max/multi
+- Fal-ai aggregation platform [/fal-ai/wan/v2.2-a14b/image-to-image](https://yunwu.apifox.cn/api-349238006.md): Official documentation: https://fal.ai/models/fal-ai/wan/v2.2-a14b/image-to-image
+- Fal-ai aggregation platform [/fal-ai/bytedance/seedream/v4/text-to-image](https://yunwu.apifox.cn/api-349238012.md): Official documentation: https://fal.ai/models/fal-ai/bytedance/seedream/v4/text-to-image
+- Fal-ai aggregation platform [/fal-ai/bytedance/seedream/v4/edit](https://yunwu.apifox.cn/api-349238014.md): Official documentation: https://fal.ai/models/fal-ai/bytedance/seedream/v4/edit
+- Fal-ai aggregation platform[/fal-ai/vidu/reference-to-image](https://yunwu.apifox.cn/api-349238015.md): Official documentation: https://fal.ai/models/fal-ai/vidu/reference-to-image
+- Fal-ai aggregation platform[/fal-ai/imagen4/preview](https://yunwu.apifox.cn/api-349238024.md): Official documentation: https://fal.ai/models/fal-ai/imagen4/preview
+- Fal-ai aggregation platform[/fal-ai/qwen-image-edit-lora](https://yunwu.apifox.cn/api-349238066.md): Official documentation: https://fal.ai/models/fal-ai/qwen-image-edit-lora
+- Fal-ai aggregation platform[/fal-ai/qwen-image-edit-plus](https://yunwu.apifox.cn/api-354302383.md): Official documentation: https://fal.ai/models/fal-ai/qwen-image-edit-plus
+- Fal-ai aggregation platform [/fal-ai/kling-video/v2.5-turbo/pro/text-to-video](https://yunwu.apifox.cn/api-355333276.md): Official documentation: https://fal.ai/models//fal-ai/kling-video/v2.5-turbo/pro/text-to-video
+- Fal-ai aggregation platform [/fal-ai/kling-video/v2.5-turbo/pro/image-to-video](https://yunwu.apifox.cn/api-355334957.md): Official documentation: https://fal.ai/models/fal-ai/kling-video/v2.5-turbo/pro/image-to-video
+- Fal-ai aggregation platform[/fal-ai/flux-lora](https://yunwu.apifox.cn/api-355348632.md): Official documentation: https://fal.ai/models/fal-ai/flux-lora
+- Fal-ai aggregation platform [/fal-ai/flux-lora/image-to-image](https://yunwu.apifox.cn/api-355348784.md): Official documentation: https://fal.ai/models/fal-ai/flux-lora/image-to-image
+- Fal-ai aggregation platform [/fal-ai/flux-lora/inpainting](https://yunwu.apifox.cn/api-355349527.md): Official documentation: https://fal.ai/models/fal-ai/flux-lora/inpainting
+- Fal-ai aggregation platform [/fal-ai/kling-video/v2.5-turbo/pro/text-to-video](https://yunwu.apifox.cn/api-355902046.md):
+- Fal-ai aggregation platform[/fal-ai/qwen-image-edit-lora](https://yunwu.apifox.cn/api-355971008.md):
+- Help Center [Upload Images to Image Hosting](https://yunwu.apifox.cn/api-356192326.md):
