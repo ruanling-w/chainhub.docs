@@ -1,0 +1,9 @@
+# Git ignore for documentation project
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+build/
+*.log
+.gemini/
+.env
